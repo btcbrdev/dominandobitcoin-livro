@@ -1,6 +1,4 @@
-[preface]
-== Glossário Rápido
-
+# Glossário Rápido
 
 Esse glossário rápido contém muitos dos termos usados em relação ao bitcoin. Esses termos são usados em todo o livro, então favorite isso para uma referência rápida
 
