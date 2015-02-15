@@ -1,4 +1,6 @@
-# Glossário Rápido
+[preface]
+== Glossário Rápido
+
 
 Esse glossário rápido contém muitos dos termos usados em relação ao bitcoin. Esses termos são usados em todo o livro, então favorite isso para uma referência rápida
 
@@ -20,41 +22,41 @@ blockchain::
 confirmações (confirmations)::
   Uma vez que uma transação é incluída em um bloco, ela tem uma confirmação. Assim que _outro_ bloco é minerado no mesmo blockchain, a operação tem duas confirmações, e assim por diante. Seis ou mais confirmações é considerado prova suficiente de que a transação não pode ser revertida.((("confirmations")))
 
-difficulty::
-	A network-wide setting that controls how much computation is required to produce a proof of work.((("difficulty")))
+Dificuldade (difficulty)::
+  Uma configuração de toda a rede que controla a quantidade de computação que é requirido para produzir uma prova de trabalho.((("difficulty")))
 
-difficulty target::
+Dificuldade alvo (difficulty target)::
  	A difficulty at which all the computation in the network will find blocks approximately every 10 minutes.((("target difficulty")))
 
 difficulty retargeting::
 	A network-wide recalculation of the difficulty that occurs once every 2,106 blocks and considers the hashing power of the previous 2,106 blocks.((("difficulty retargeting")))
 
 fees::
-	The sender of a transaction often includes a fee to the network for processing the requested transaction.  Most transactions require a minimum fee of 0.5 mBTC.((("fees")))
+  O remetente de uma operação muitas vezes inclui uma taxa para a rede para o processamento da transação solicitada. A maioria das transações exigem uma taxa mínima de 0,5 MBTC.((("fees")))
 
 hash::
-	A digital fingerprint of some binary input.((("hash")))
+  Uma impressão digital de alguma entrada binária.((("hash")))
 
-genesis block::
-	The first block in the blockchain, used to initialize the cryptocurrency.((("genesis block")))
+bloco gênese (genesis block)::
+  O primeiro bloco no blockchain, usado para inicializar a crypto moeda.((("genesis block")))
 
-miner::
-A network node that finds valid proof of work for new blocks, by repeated hashing.((("miner")))
+minerador (miner)::
+  Um nó da rede que encontra prova válida de trabalho para novos blocos, por hashing repetida.((("miner")))
 
-network::
-A peer-to-peer network that propagates transactions and blocks to every bitcoin node on the network.((("network")))
+rede (network)::
+  Uma rede peer-to-peer que propaga transações e blocos para cada nó bitcoin na rede.((("network")))
 
-Proof-Of-Work::
-	A piece of data that requires significant computation to find. In bitcoin, miners must find a numeric solution to the SHA256 algorithm that meets a network-wide target, the difficulty target. ((("proof-of-work")))
+prova de Trabalho (Proof-Of-Work)::
+  Um pedaço de dados que requer computação significativa para se encontrar. Em bitcoin, os mineradores devem encontrar uma solução numérica para o algoritmo SHA256 que respeite o objectivo de toda a rede, a dificuldade alvo.((("proof-of-work")))
 
-reward::
-An amount included in each new block as a reward by the network to the miner who found the Proof-Of-Work solution. It is currently 25BTC per block.((("reward")))
+recompensa (reward)::
+  Um montante incluído em cada novo bloco como uma recompensa pela rede para o minerador que encontrou a solução da prova de trabalho. É atualmente 25BTC por bloco.((("reward")))
 
-secret key (aka private key)::
-	The secret number that unlocks bitcoins sent to the corresponding address.  A secret key looks like +5J76sF8L5jTtzE96r66Sf8cka9y44wdpJjMwCxR3tzLh3ibVPxh+.((("secret key")))((("private key", see="secret key")))
+chave secreta (secret key ou private key)::
+  O número secreto que desbloqueia bitcoins enviados para o endereço correspondente. A chave secreta parece com +5J76sF8L5jTtzE96r66Sf8cka9y44wdpJjMwCxR3tzLh3ibVPxh+.((("secret key")))((("private key", see="secret key")))
 
-transaction::
-In simple terms, a transfer of bitcoins from one address to another. More precisely, a transaction is a signed data structure expressing a transfer of value. Transactions are transmitted over the bitcoin network, collected by miners, and included into blocks, made permanent on the blockchain.((("transaction")))
+transação (transaction)::
+  Em termos simples, uma transferência de bitcoins de um endereço para outro. Mais precisamente, uma transação é uma estrutura de dados assinados expressando uma transferência de valor. As transações são transmitidos através da rede bitcoin, recolhido pelos mineradores, e incluídos em blocos, tornada permanente no blockchain.((("transaction")))
 
-wallet::
-Software that holds all your bitcoin addresses and secret keys. Use it to send, receive, and store your bitcoin.((("wallet")))
+Carteira (wallet)::
+  Software que mantém todos os seus endereços bitcoin e chaves secretas. Use-o para enviar, receber e armazenar o seu bitcoin.((("wallet")))
