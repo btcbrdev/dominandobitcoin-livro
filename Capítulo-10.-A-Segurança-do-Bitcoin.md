@@ -47,9 +47,9 @@ Over the past three years, as a direct result of bitcoin adoption, we have seen 
 
 Because most users are far more comfortable with physical security than information security, a very effective method for protecting bitcoins is to convert them into physical form. Bitcoin keys are nothing more than long numbers. This means that they can be stored in a physical form, such as printed on paper or etched on a metal coin. Securing the keys then becomes as simple as physically securing the printed copy of the bitcoin keys. A set of bitcoin keys that is printed on paper is called a "paper wallet," and there are many free tools that can be used to create them. I personally keep the vast majority of my bitcoins (99% or more) stored on paper wallets, encrypted with BIP0038, with multiple copies locked in safes. Keeping bitcoin offline is called cold storage and it is one of the most effective security techniques. A cold storage system is one where the keys are generated on an offline system (one never connected to the Internet) and stored offline either on paper or on digital media, such as a USB memory stick.
 
-### Hardware Wallets
+### Carteiras de Hardware
 
-In the long term, bitcoin security increasingly will take the form of hardware tamper-proof wallets. Unlike a smartphone or desktop computer, a bitcoin hardware wallet has just one purpose: to hold bitcoins securely. Without general-purpose software to compromise and with limited interfaces, hardware wallets can deliver an almost foolproof level of security to nonexpert users. I expect to see hardware wallets become the predominant method of bitcoin storage. For an example of such a hardware wallet, see the Trezor.
+A longo prazo, a segurança do bitcoin irá cada vez mais estar vinculada com carteiras de hardware à prova de falsificação. Diferentemente dos smartphones ou computadores de mesa, a carteira de hardware de bitcoin tem apenas um único propósito: armazenar bitcoins com segurança. Sem o risco de comprometimento por softwares de múltiplos propósitos e com interfaces limitadas, essas carteiras podem fornecer um nível altíssimo de segurança para usuários comuns, não especialistas. Eu espero ver as carteiras de hardware se tornando o método predominante de armazenamento de bitcoins. Para conhecer um exemplo deste tipo de carteira, pesquise sobre a carteira Trezor.
 
 ### Balancing Risk
 
@@ -69,6 +69,6 @@ One important security consideration that is often overlooked is availability, e
 
 If you have a lot of bitcoin, you should consider sharing access details with a trusted relative or lawyer. A more complex survivability scheme can be set up with multi-signature access and estate planning through a lawyer specialized as a "digital asset executor."
 
-## Conclusion
+## Conclusão
 
-Bitcoin is a completely new, unprecedented, and complex technology. Over time we will develop better security tools and practices that are easier to use by nonexperts. For now, bitcoin users can use many of the tips discussed here to enjoy a secure and trouble-free bitcoin experience.
+O bitcoin é uma tecnologia nova, complexa e sem precedentes. Com o passar do tempo, iremos desenvolver melhores ferramentas de segurança e práticas que serão mais fáceis de serem utilizadas por pessoas comuns, não especialistas. Enquanto isso, os usuários de bitcoin podem usar muitas das dicas discutidas nesse capítulo para aproveitar uma experiência com bitcoins segura, livre de problemas.
