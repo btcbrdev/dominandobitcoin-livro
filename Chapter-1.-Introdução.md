@@ -26,12 +26,9 @@ Quando a criptografia começou a se tornar mais comum e entendida no final dos a
 
 Apesar destas moedas digitais pioneiras funcionarem, elas eram centralizadas e, como resultado, eram fáceis de atacar tanto por governos como por _hackers_. As moedas digitais pioneiras usavam uma central de compensação para finalizar todas as transações em intervalos regulares, da mesma forma que um sistema bancário tradicional. Infelizmente, em muitos casos essas moedas digitais que surgiam se tornavam um alvo dos governos preocupados e eventualmente desapareciam. Algumas falharam em quebras espetaculares quando a companhia responsável era liquidada de repente. Para ser robusta contra a intervenção de opositores, sejam governos legítimos ou elementos criminais, uma moeda descentralizada digital se tornava necessária para evitar um único ponto de ataque. Este sistema é Bitcoin, completamente descentralizado por _design_, e livre de qualquer autoridade central ou ponto de controle que pode ser atacado ou corrompido.
 
-Bitcoin represents the culmination of decades of research in cryptography and distributed systems and includes four key innovations brought together in a unique and powerful combination. Bitcoin consists of:
+Bitcoin representa o auge de décadas de pesquisa em criptografia e sistemas distribuídos e inclui 4 inovações chaves unidas em uma combinação única e poderosa. Bitcoin consiste em:
 
-A decentralized peer-to-peer network (the bitcoin protocol)
-
-A public transaction ledger (the blockchain)
-
-A decentralized mathematical and deterministic currency issuance (distributed mining)
-
-A decentralized transaction verification system (transaction script)
+* Uma rede _peer-to-peer_ descentralizada (o protocolo bitcoin)
+* Um registro público de transações (a blockchain ou cadeia de blocos)
+* Uma emissão de moeda descentralizada, matemática e determinística (a mineração distribuída)
+* Um sistema descentralizado de verificação de transações (o script de transação)
