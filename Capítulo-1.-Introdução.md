@@ -44,42 +44,40 @@ Satoshi Nakamoto se afastou do público em abril de 2011, deixando a responsabil
 ###Uma Solução para um Problema de Computação Distribuída
 O invento de Satoshi Nakamoto é também uma solução prática para um problema que até então não estava resolvido em computação distribuída, conhecido como o "Problema dos Generais Bizantinos". Em resumo, o problema consiste em tentar tomar uma decisão através do intercâmbio de informações sobre uma rede pouco confiável e potencialmente comprometido. A solução de Satoshi Nakamoto, que utiliza o conceito de prova de trabalho para alcançar o consenso sem uma autoridade central confiável, representa um enorme avanço na ciência de computação distribuída e possui amplas aplicações além de moedas. Pode ser usado para alcançar consenso em redes descentralizadas para provar a honestidade de eleições, loterias, registros de bens, cartórios digitais e mais.
 
-#Usos do Bitcoin, Seus Usuários e Suas Estórias
+#Usos do Bitcoin, Seus Usuários e Suas Histórias
 
-Bitcoin é uma tecnologia, mas ela expressa dinheiro que é fundamentalmente uma linguagem para a troca de valor entre pessoas. Vamos dar uma olhada nas pessoas que estão usando bitcoin 
-Bitcoin is a technology, but it expresses money that is fundamentally a language for exchanging value between people. Let’s look at the people who are using bitcoin and some of the most common uses of the currency and protocol through their stories. We will reuse these stories throughout the book to illustrate the real-life uses of digital money and how they are made possible by the various technologies that are part of bitcoin.
+Bitcoin é uma tecnologia, mas ela expressa dinheiro que é fundamentalmente uma linguagem para a troca de valor entre pessoas. Vamos dar uma olhada nas pessoas que estão usando bitcoin e alguns dos usos mais comuns da moeda e do protocolo através de suas histórias. Iremos reutilizar essas histórias ao largo do livro para ilustrar os usos do dinheiro digital na vida real e como eles se tornaram possíveis por meio das várias tecnologias que formam parte do bitcoin.
 
-North American low-value retail
-Alice lives in Northern California’s Bay Area. She has heard about bitcoin from her techie friends and wants to start using it. We will follow her story as she learns about bitcoin, acquires some, and then spends some of her bitcoin to buy a cup of coffee at Bob’s Cafe in Palo Alto. This story will introduce us to the software, the exchanges, and basic transactions from the perspective of a retail consumer.
+_**Comércio de ítems de baixo valor na América do Norte**_
+Alícia mora na área da baía da Califórnia do Norte. Ela ouviu falar sobre o bitcoin através dos seus amigos tecnólogos e quer começar a usá-lo. Iremos acompanhar sua história de como ela aprende a respeito do bitcoin, adquire alguns e então gasta alguns dos bitcoins dela para comprar uma xícara de café no Bob's Cafe em Palo Alto. Esta história nos vai apresentar ao _software_, às casas de câmbio e às transações básicas desde a perspectiva de um consumidor do varejo.
 
-North American high-value retail
-Carol is an art gallery owner in San Francisco. She sells expensive paintings for bitcoin. This story will introduce the risks of a "51%" consensus attack for retailers of high-value items.
+_**Comércio de ítems de alto valor nos Estados Unidos**_
+Carol é dona de uma galeria de arte em San Francisco. Ela vende pinturas caras por bitcoin. Esta história nos vai apresentar os riscos de um ataque de consenso "51%" contra varejistas de items de alto valor.
 
-Offshore contract services
-Bob, the cafe owner in Palo Alto, is building a new website. He has contracted with an Indian web developer, Gopesh, who lives in Bangalore, India. Gopesh has agreed to be paid in bitcoin. This story will examine the use of bitcoin for outsourcing, contract services, and international wire transfers.
+_**Serviços de contratos internacionais**_
+Bob, o dono da cafeteria de Palo Alto, está montando um novo website. Ele contratou um programador web indiano, Gopesh, que mora em Bangalore, Índia. Gopesh aceitou ser pago em bitcoin. Esta história vai examinar o uso do bitcoin para a terceirização, contratos de serviços e transferências bancárias internacionais. 
 
-Charitable donations
-Eugenia is the director of a children’s charity in the Philippines. Recently she has discovered bitcoin and wants to use it to reach a whole new group of foreign and domestic donors to fundraise for her charity. She’s also investigating ways to use bitcoin to distribute funds quickly to areas of need. This story will show the use of bitcoin for global fundraising across currencies and borders and the use of an open ledger for transparency in charitable organizations.
+_**Doações beneficentes**_
+Eugênia é a diretora de uma instituição de caridade para crianças nas Filipinas. Recentemente ela discobriu o bitcoin e quer usá-lo para alcançar um grupo completamente diferente de estrangeiros e doadores domésticos para financiar sua instituição de caridade. Ela também tem investigado formas de usa o bitcoin para distribuir os fundos rapidamente nas áreas necessitadas. Esta história irá mostrar o uso do bitcoin para a angariação de fundos através de fronteiras e moedas e o uso de um registro contábil aberto para a transparência de organizações de caridade.
 
-Import/export
-Mohammed is an electronics importer in Dubai. He’s trying to use bitcoin to buy electronics from the US and China for import into the UAE to accelerate the process of payments for imports. This story will show how bitcoin can be used for large business-to-business international payments tied to physical goods.
+_**Importação e exportação**_
+Mohammed é um importador de eletrônicos em Dubai. Ele vem tentando usar o bitcoin para comprar eletrônicos dos Estados Unidos e da China para importação aos Emirados Árabes Unidos e assim acelerar o processo de pagamentos para as importações. Esta história irá mostrar como o bitcoin pode ser usado para grandes pagamentos internacionais _B2B_ entre negócios de grande porte atados a mercadorias físicas.
 
-Mining for bitcoin
-Jing is a computer engineering student in Shanghai. He has built a "mining" rig to mine for bitcoins, using his engineering skills to supplement his income. This story will examine the "industrial" base of bitcoin: the specialized equipment used to secure the bitcoin network and issue new currency.
+_**Minerando por bitcoins**_
+Jing é um estudante de engenharia de computação em Shanghai. Ele possui uma aparelhagem de "mineração" para minerar bitcoins, usando suas habilidades de engenharia para complementar sua renda. Esta história irá examinar a base "industrial" do bitcoin: o equipamento especializado usado para proteger a rede bitcoin e emitir nova moeda.
 
-Each of these stories is based on real people and real industries that are currently using bitcoin to create new markets, new industries, and innovative solutions to global economic issues.
+Cada uma dessas histórias se baseia em pessoas reais e indústrias reais que atualmente usam bitcoin para criar novos mercados, novas indústrias e soluções inovadoras para os problemas econômicos globais.
 
 
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0101.png)
-Figure 1. The Multibit bitcoin client Welcome screen
+Figura 1. A tela de boas-vindas do cliente bitcoin Multibit
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0102.png)
-Figure 2. Alice’s new bitcoin address, in the Request tab of the Multibit client
+Figura 2. O novo endereço bitcoin da Alice, na aba _Request_ do cliente Multibit
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0103.png)
-Figure 3. ZeroBlock, a bitcoin market-rate application for Android and iOS
+Figura 3. ZeroBlock, uma aplicação de preço de mercado do bitcoin para Android e iOS
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0104.png)
-Figure 4. Blockchain mobile wallet’s bitcoin send screen
-
+Figura 4. A tela de envio de bitcoin da carteira móvel Blockchain
