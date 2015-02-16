@@ -33,7 +33,7 @@ Bitcoin representa o auge de décadas de pesquisa em criptografia e sistemas dis
 * Uma emissão de moeda descentralizada, matemática e determinística (a mineração distribuída)
 * Um sistema descentralizado de verificação de transações (o script de transação)
 
-#História do Bitcoin
+#A História do Bitcoin
 
 O Bitcoin foi inventado em 2008 com a publicação de um paper entitulado com a publicação de um paper entitulado "Bitcoin: Um Sistema de Dinheiro em Espécie Eletrônico" (_"Bitcoin: A Peer-to-Peer Electronic Cash System"_ em inglês), escrito sob o pseudônimo de Satoshi Nakamoto. Nakamoto combinou várias das invenções anteriores tais como b-money e HashCash para criar um sistema de dinheiro vivo eletrônico completamente descentralizado que não depende de uma autoridade central para a emissão de moeda ou para a liquidação e validação de transações. A inovação chave foi usar um sistema de computação distribuído (chamado algoritmo de "prova de trabalho" ou _"proof of work"_) para conduzir uma "eleição" global a cada 10 minutos, permitindo à rede descentralizada chegar em um consenso sobre o estado das transações. Isto resolve de forma elegante o problema de gasto duplicado onde uma única unidade de moeda poderia ser gasta duas vezes. Antes o problema de gasto duplicado era uma fraqueza do dinheiro digital e se solucionava liquidando todas as transações através de uma entidade central.
 
@@ -43,6 +43,32 @@ Satoshi Nakamoto se afastou do público em abril de 2011, deixando a responsabil
 
 ###Uma Solução para um Problema de Computação Distribuída
 O invento de Satoshi Nakamoto é também uma solução prática para um problema que até então não estava resolvido em computação distribuída, conhecido como o "Problema dos Generais Bizantinos". Em resumo, o problema consiste em tentar tomar uma decisão através do intercâmbio de informações sobre uma rede pouco confiável e potencialmente comprometido. A solução de Satoshi Nakamoto, que utiliza o conceito de prova de trabalho para alcançar o consenso sem uma autoridade central confiável, representa um enorme avanço na ciência de computação distribuída e possui amplas aplicações além de moedas. Pode ser usado para alcançar consenso em redes descentralizadas para provar a honestidade de eleições, loterias, registros de bens, cartórios digitais e mais.
+
+#Usos do Bitcoin, Seus Usuários e Suas Estórias
+
+Bitcoin é uma tecnologia, mas ela expressa dinheiro que é fundamentalmente uma linguagem para a troca de valor entre pessoas. Vamos dar uma olhada nas pessoas que estão usando bitcoin 
+Bitcoin is a technology, but it expresses money that is fundamentally a language for exchanging value between people. Let’s look at the people who are using bitcoin and some of the most common uses of the currency and protocol through their stories. We will reuse these stories throughout the book to illustrate the real-life uses of digital money and how they are made possible by the various technologies that are part of bitcoin.
+
+North American low-value retail
+Alice lives in Northern California’s Bay Area. She has heard about bitcoin from her techie friends and wants to start using it. We will follow her story as she learns about bitcoin, acquires some, and then spends some of her bitcoin to buy a cup of coffee at Bob’s Cafe in Palo Alto. This story will introduce us to the software, the exchanges, and basic transactions from the perspective of a retail consumer.
+
+North American high-value retail
+Carol is an art gallery owner in San Francisco. She sells expensive paintings for bitcoin. This story will introduce the risks of a "51%" consensus attack for retailers of high-value items.
+
+Offshore contract services
+Bob, the cafe owner in Palo Alto, is building a new website. He has contracted with an Indian web developer, Gopesh, who lives in Bangalore, India. Gopesh has agreed to be paid in bitcoin. This story will examine the use of bitcoin for outsourcing, contract services, and international wire transfers.
+
+Charitable donations
+Eugenia is the director of a children’s charity in the Philippines. Recently she has discovered bitcoin and wants to use it to reach a whole new group of foreign and domestic donors to fundraise for her charity. She’s also investigating ways to use bitcoin to distribute funds quickly to areas of need. This story will show the use of bitcoin for global fundraising across currencies and borders and the use of an open ledger for transparency in charitable organizations.
+
+Import/export
+Mohammed is an electronics importer in Dubai. He’s trying to use bitcoin to buy electronics from the US and China for import into the UAE to accelerate the process of payments for imports. This story will show how bitcoin can be used for large business-to-business international payments tied to physical goods.
+
+Mining for bitcoin
+Jing is a computer engineering student in Shanghai. He has built a "mining" rig to mine for bitcoins, using his engineering skills to supplement his income. This story will examine the "industrial" base of bitcoin: the specialized equipment used to secure the bitcoin network and issue new currency.
+
+Each of these stories is based on real people and real industries that are currently using bitcoin to create new markets, new industries, and innovative solutions to global economic issues.
+
 
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0101.png)
