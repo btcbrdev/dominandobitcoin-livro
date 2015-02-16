@@ -43,3 +43,17 @@ Satoshi Nakamoto se afastou do público em abril de 2011, deixando a responsabil
 
 ###Uma Solução para um Problema de Computação Distribuída
 O invento de Satoshi Nakamoto é também uma solução prática para um problema que até então não estava resolvido em computação distribuída, conhecido como o "Problema dos Generais Bizantinos". Em resumo, o problema consiste em tentar tomar uma decisão através do intercâmbio de informações sobre uma rede pouco confiável e potencialmente comprometido. A solução de Satoshi Nakamoto, que utiliza o conceito de prova de trabalho para alcançar o consenso sem uma autoridade central confiável, representa um enorme avanço na ciência de computação distribuída e possui amplas aplicações além de moedas. Pode ser usado para alcançar consenso em redes descentralizadas para provar a honestidade de eleições, loterias, registros de bens, cartórios digitais e mais.
+
+
+![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0101.png)
+Figure 1. The Multibit bitcoin client Welcome screen
+
+![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0102.png)
+Figure 2. Alice’s new bitcoin address, in the Request tab of the Multibit client
+
+![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0103.png)
+Figure 3. ZeroBlock, a bitcoin market-rate application for Android and iOS
+
+![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0104.png)
+Figure 4. Blockchain mobile wallet’s bitcoin send screen
+
