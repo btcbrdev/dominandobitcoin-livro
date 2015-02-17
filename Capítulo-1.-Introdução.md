@@ -102,7 +102,16 @@ A escolha do cliente bitcoin depende de quanto controle o usuário quer sobre os
 
 Para os propósitos deste livro, demonstraremos o uso de uma variedade de clientes bitcoin que se podem baixar, desde a implementação de referência (o cliente Satoshi) às carteiras web. Alguns dos exemplos vão necessitar o uso do cliente de referência, que além de ser um cliente completo também expõe APIs de acesso à carteira, à rede e aos serviços de transações. Se você planeja explorar as interfaces programáticas de acesso ao sistema Bitcoin, você irá precisar do cliente de referência.
 
+###Quick Start
 
+Alice, who we introduced in Bitcoin Uses, Users, and Their Stories, is not a technical user and only recently heard about bitcoin from a friend. She starts her journey by visiting the official website bitcoin.org, where she finds a broad selection of bitcoin clients. Following the advice on the bitcoin.org site, she chooses the lightweight bitcoin client Multibit.
+
+Alice follows a link from the bitcoin.org site to download and install Multibit on her desktop. Multibit is available for Windows, Mac OS, and Linux desktops.
+
+[Warning]
+A bitcoin wallet must be protected by a password or passphrase. There are many bad actors attempting to break weak passwords, so take care to select one that cannot be easily broken. Use a combination of upper and lowercase characters, numbers, and symbols. Avoid personal information such as birth dates or names of sports teams. Avoid any words commonly found in dictionaries, in any language. If you can, use a password generator to create a completely random password that is at least 12 characters in length. Remember: bitcoin is money and can be instantly moved anywhere in the world. If it is not well protected, it can be easily stolen.
+
+Once Alice has downloaded and installed the Multibit application, she runs it and is greeted by a Welcome screen, as shown in The Multibit bitcoin client Welcome screen.
 
 
 
