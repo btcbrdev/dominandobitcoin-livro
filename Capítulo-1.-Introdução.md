@@ -102,27 +102,31 @@ A escolha do cliente bitcoin depende de quanto controle o usuário quer sobre os
 
 Para os propósitos deste livro, demonstraremos o uso de uma variedade de clientes bitcoin que se podem baixar, desde a implementação de referência (o cliente Satoshi) às carteiras web. Alguns dos exemplos vão necessitar o uso do cliente de referência, que além de ser um cliente completo também expõe APIs de acesso à carteira, à rede e aos serviços de transações. Se você planeja explorar as interfaces programáticas de acesso ao sistema Bitcoin, você irá precisar do cliente de referência.
 
-###Quick Start
+###Iniciação Rápida
 
-Alice, who we introduced in Bitcoin Uses, Users, and Their Stories, is not a technical user and only recently heard about bitcoin from a friend. She starts her journey by visiting the official website bitcoin.org, where she finds a broad selection of bitcoin clients. Following the advice on the bitcoin.org site, she chooses the lightweight bitcoin client Multibit.
+Alice, a quem apresentamos na seção "Usos do Bitcoin, Seus Usuários e Suas Histórias" não é uma usuária técnica e só recentemente ouviu falar do bitcoin por um amigo. Ela começa sua jornada visitando o website oficial bitcoin.org, onde ela encontra uma ampla seleção de clientes bitcoin. Seguindo o conselho do site bitcoin.org, ela escolhe o cliente bitcoin compacto Multibit.
 
-Alice follows a link from the bitcoin.org site to download and install Multibit on her desktop. Multibit is available for Windows, Mac OS, and Linux desktops.
+Alice segue um link do site bitcoin.org para baixar e instalar Multibit no PC dela. Multibit está disponível para computadores Windows, Mac OS e Linux.
 
-[Warning]
-A bitcoin wallet must be protected by a password or passphrase. There are many bad actors attempting to break weak passwords, so take care to select one that cannot be easily broken. Use a combination of upper and lowercase characters, numbers, and symbols. Avoid personal information such as birth dates or names of sports teams. Avoid any words commonly found in dictionaries, in any language. If you can, use a password generator to create a completely random password that is at least 12 characters in length. Remember: bitcoin is money and can be instantly moved anywhere in the world. If it is not well protected, it can be easily stolen.
+[Atenção]
+Uma carteira bitcoin deve ser protegida por uma senha ou frase. Há muitos agentes maliciosos tentando quebrar senhas fracas, então tenha o cuidado de selecionar uma que não possa ser facilmente adivinhada. Use uma combinação de caracteres maiúsculos e minúsculos, números e símbolos. Evite usar informação pessoal como datas de nascimento ou nomes de times de futebol. Evite quaiquer palavras facilmente encontradas em dicionários, em qualquer língua. Se puder, use um gerador de senhas para criar uma senha completamente aleatória que tenha no mínimo 12 caracteres de comprimento. Lembre-se: bitcoin é dinheiro e pode ser transferido instantaneamente para qualquer lugar do mundo. Se não for bem protegido, ele pode ser facilmente roubado.
 
-Once Alice has downloaded and installed the Multibit application, she runs it and is greeted by a Welcome screen, as shown in The Multibit bitcoin client Welcome screen.
-
-
+Assim que a Alice terminar de baixar e instalar a aplicação Multibit, ela o executa e a tela de Boas-Vindas lhe sauda, como mostrado na tela de boas-vindas do cliente Multibit. *** inserir link à imagem abaixo
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0101.png)
+
 Figura 1. A tela de boas-vindas do cliente bitcoin Multibit
 
+
+
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0102.png)
+
 Figura 2. O novo endereço bitcoin da Alice, na aba _Request_ do cliente Multibit
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0103.png)
+
 Figura 3. ZeroBlock, uma aplicação de preço de mercado do bitcoin para Android e iOS
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0104.png)
+
 Figura 4. A tela de envio de bitcoin da carteira móvel Blockchain
