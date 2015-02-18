@@ -1,4 +1,4 @@
-# Dominando Bitcoin
+# Dominando o Bitcoin
 
 > Andreas M. Antonopoulos
 
