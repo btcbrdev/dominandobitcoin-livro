@@ -60,13 +60,14 @@ Você carregaria todas as suas economias em notas de dinheiro guardadas na sua c
 
 ### Múltiplas Assinaturas
 
-Sempre que uma companhia ou pessoa armazenar grandes quantidades de bitcoins, a opção de usar endereços com múltiplas assinaturas deveria ser considerada. Esse endereços são mais seguros porque exigem mais de uma assinatura para que um pagamento seja realizado. Idealmente, as chaves usadas nas assinaturas devem ser armazenadas em diferentes locais e sob o controle de diferentes pessoas. Em um ambiente corporativo, por exemplo, as chaves deveriam ser geradas independentemente e guardadas por diferentes executivos da empresa, garantindo que nenhuma pessoa sozinha consiga comprometer as economias da empresa. Os endereços com múltiplas assinaturas também podem oferecer redundância, quando uma pessoa única possuir múltiplas chaves que são armazenadas em diferentes locais.
+Sempre que uma companhia ou pessoa armazenar grandes quantidades de bitcoins, a opção de usar endereços com múltiplas assinaturas deveria ser considerada. Esse endereços são mais seguros porque exigem mais de uma assinatura para que um pagamento seja realizado. Idealmente, as chaves usadas nas assinaturas devem ser armazenadas em diferentes locais e sob o controle de diferentes pessoas. Em um ambiente corporativo, por exemplo, as chaves deveriam ser geradas independentemente e guardadas por diferentes executivos da empresa, garantindo que nenhuma pessoa sozinha consiga comprometer as economias da empresa. Os endereços com múltiplas assinaturas também podem oferecer redundância, quando uma pessoa sozinha possuir múltiplas chaves que são armazenadas em diferentes locais.
 
-### Survivability
+### Pensando na Posteridade
 
-One important security consideration that is often overlooked is availability, especially in the context of incapacity or death of the key holder. Bitcoin users are told to use complex passwords and keep their keys secure and private, not sharing them with anyone. Unfortunately, that practice makes it almost impossible for the user’s family to recover any funds if the user is not available to unlock them. In most cases, in fact, the families of bitcoin users might be completely unaware of the existence of the bitcoin funds.
+Uma importante consideração frequentemente desprezada é a disponibilidade, especialmente no contexto de incapacidade, doença ou morte da pessoa que possui as chaves. Para evitar roubos, os usuários de bitcoin frequentemente são orientados a usar senhas complexas e a manter suas chaves em segurança, longe do alcance de terceiros. Infelizmente, essa prática torna quase impossível a recuperação dos bitcoins pela família do usuário. Na maioria dos casos, as famílias dos usuários sequer tem conhecimento da existência de suas economias em moeda digital.
 
-If you have a lot of bitcoin, you should consider sharing access details with a trusted relative or lawyer. A more complex survivability scheme can be set up with multi-signature access and estate planning through a lawyer specialized as a "digital asset executor."
+Se você tiver uma grande quantidade de bitcoins, você deveria considerar a ideia de compartilhar detalhes de acesso com um familiar de confiança ou com um advogado. Uma estratégia mais complexa para o seu legado pode ser obtida cutilizando endereços de múltiplas assinaturas ou através de um planejamento de herança com um advogado especializado em ativos digitais.
+
 
 ## Conclusão
 
