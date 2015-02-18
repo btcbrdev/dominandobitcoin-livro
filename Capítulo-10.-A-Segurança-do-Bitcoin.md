@@ -58,9 +58,9 @@ Although most users are rightly concerned about bitcoin theft, there is an even 
 
 Você carregaria todas as suas economias em notas de dinheiro guardadas na sua carteira? A maioria das pessoas consideraria isso imprudente, no entanto os usuários de bitcoin frequentemente mantém todos os seus bitcoins em uma carteira única. Ao invés disso, os usuários deveriam distribuir o risco de perdê-los entre múltiplas carteiras de bitcoin, de diferentes tipos. Usuários prudentes mantém somente uma pequena porção de seus bitcoins, talvez menos de 5%, em uma carteira online ou de smartphone, para usá-los nas compras do dia-a-dia. O resto deveria ser dividido em diferentes formas de armazenamento, como carteira desktop ou offline (armazenamento frio).
 
-### Multi-sig and Governance
+### Múltiplas Assinaturas
 
-Whenever a company or individual stores large amounts of bitcoin, they should consider using a multi-signature bitcoin address. Multi-signature addresses secure funds by requiring more than one signature to make a payment. The signing keys should be stored in a number of different locations and under the control of different people. In a corporate environment, for example, the keys should be generated independently and held by several company executives, to ensure no single person can compromise the funds. Multi-signature addresses can also offer redundancy, where a single person holds several keys that are stored in different locations.
+Sempre que uma companhia ou pessoa armazenar grandes quantidades de bitcoins, a opção de usar endereços com múltiplas assinaturas deveria ser considerada. Esse endereços são mais seguros porque exigem mais de uma assinatura para que um pagamento seja realizado. Idealmente, as chaves usadas nas assinaturas devem ser armazenadas em diferentes locais e sob o controle de diferentes pessoas. Em um ambiente corporativo, por exemplo, as chaves deveriam ser geradas independentemente e guardadas por diferentes executivos da empresa, garantindo que nenhuma pessoa sozinha consiga comprometer as economias da empresa. Os endereços com múltiplas assinaturas também podem oferecer redundância, quando uma pessoa única possuir múltiplas chaves que são armazenadas em diferentes locais.
 
 ### Survivability
 
