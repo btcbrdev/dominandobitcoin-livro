@@ -23,27 +23,25 @@ Bitcoin is a highly sophisticated decentralized trust network that can support a
 The following typographical conventions are used in this book:
 
 <dl>
-<dt><span class="term">
+<dt>
 <em>Italic</em>
-</span></dt>
+</dt>
 <dd>
 Indicates new terms, URLs, email addresses, filenames, and file extensions.
 </dd>
-<dt><span class="term">
-<code class="literal">Constant width</code>
-</span></dt>
+<dt>
+Constant width
+</dt>
 <dd>
 Used for program listings, as well as within paragraphs to refer to program elements such as variable or function names, databases, data types, environment variables, statements, and keywords.
 </dd>
-<dt><span class="term">
-<span class="strong"><strong><code class="literal">Constant width bold</code></strong></span>
-</span></dt>
+<dt>
+Constant width bold
+</dt>
 <dd>
 Shows commands or other text that should be typed literally by the user.
 </dd>
-<dt><span class="term">
-<span class="emphasis"><em><code class="literal">Constant width italic</code></em></span>
-</span></dt>
+<dt>Constant width italic</dt>
 <dd>
 Shows text that should be replaced with user-supplied values or by values determined by context.
 </dd>
