@@ -113,17 +113,76 @@ Alice segue um link do site bitcoin.org para baixar e instalar Multibit no PC de
 [Atenção]
 Uma carteira bitcoin deve ser protegida por uma senha ou frase. Há muitos agentes maliciosos tentando quebrar senhas fracas, então tenha o cuidado de selecionar uma que não possa ser facilmente adivinhada. Use uma combinação de caracteres maiúsculos e minúsculos, números e símbolos. Evite usar informação pessoal como datas de nascimento ou nomes de times de futebol. Evite quaiquer palavras facilmente encontradas em dicionários, em qualquer língua. Se puder, use um gerador de senhas para criar uma senha completamente aleatória que tenha no mínimo 12 caracteres de comprimento. Lembre-se: bitcoin é dinheiro e pode ser transferido instantaneamente para qualquer lugar do mundo. Se não for bem protegido, ele pode ser facilmente roubado.
 
-Assim que a Alice terminar de baixar e instalar a aplicação Multibit, ela o executa e a tela de Boas-Vindas lhe sauda, como mostrado na tela de boas-vindas do cliente Multibit. *** inserir link à imagem abaixo
+Assim que a Alice terminar de baixar e instalar a aplicação Multibit, ela o executa e a tela de Boas-Vindas lhe sauda, como mostrado na tela de boas-vindas do cliente Multibit.
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0101.png)
 
 Figura 1. A tela de boas-vindas do cliente bitcoin Multibit
+
+Multibit automatically creates a wallet and a new bitcoin address for Alice, which Alice can see by clicking the Request tab shown in Alice’s new bitcoin address, in the Request tab of the Multibit client.
 
 
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0102.png)
 
 Figura 2. O novo endereço bitcoin da Alice, na aba _Request_ do cliente Multibit
+
+The most important part of this screen is Alice’s bitcoin address. Like an email address, Alice can share this address and anyone can use it to send money directly to her new wallet. On the screen it appears as a long string of letters and numbers: 1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK. Next to the wallet’s bitcoin address is a QR code, a form of barcode that contains the same information in a format that can be scanned by a smartphone camera. The QR code is the black-and-white square on the right side of the window. Alice can copy the bitcoin address or the QR code onto her clipboard by clicking the copy button adjacent to each of them. Clicking the QR code itself will magnify it, so that it can be easily scanned by a smartphone camera.
+
+Alice can also print the QR code as a way to easily give her address to others without them having to type the long string of letters and numbers.
+
+Tip
+Bitcoin addresses start with the digit 1 or 3. Like email addresses, they can be shared with other bitcoin users who can use them to send bitcoin directly to your wallet. Unlike email addresses, you can create new addresses as often as you like, all of which will direct funds to your wallet. A wallet is simply a collection of addresses and the keys that unlock the funds within. You can increase your privacy by using a different address for every transaction. There is practically no limit to the number of addresses a user can create.
+
+Alice is now ready to start using her new bitcoin wallet.
+
+###Obtendo Os Seus Primeiros Bitcoins
+
+Ainda não é possível comprar os bitcoins em um banco ou casa de câmbio de moedas estrangeiras. Em 2014, ainda é muito difícil adquirir bitcoins na maior parte dos países. Há algumas casas de câmbio especializadas onde você pode comprar e vender bitcoin pagando com a sua moeda local. Estas operam como os mercados de moedas online e delas fazem parte:
+
+_**Bitstamp**_
+Um mercado de moedas europeu que permite comprar várias moedas inclusive euros (EUR) e dólares americanos (USD) por transferência bancária.
+
+_**Coinbase**_
+Uma carteira e uma plataforma americanas de bitcoin onde comerciantes e consumidores podem fazer transações em bitcoin. Coinbase torna fácil comprar e vender bitcoin, permitindo aos usuários se conectarem às suas contas bancárias nos EUA através do sistema ACH (Automated Clearing House).
+
+Casas de câmbio de criptomoedas como essas operam na interseção entre moedas nacionais e criptomoedas. Assim elas estão sujeitas às normas nacionais e internacionais e, com frequência, são específcas a um determinado país ou região econômica e se especializam nas moedas nacionais daquela região. Sua escolha de casas de câmcio será específica para moeda nacional que você usa e limitada às exchanges que operam dentro da jurisdição legal de seu país. De maneira similar a uma conta bancária, pode levar vários dias ou semanas para configurar as contas necessárias com estes serviços pois eles requerem várias formas de identificação para atender às exigências das regulações bancárias KYC (_know your customer_ ou conheça seu cliente) e AML (_anti-money laundering_ ou combate à lavagem de dinheiro). Assim que você tiver uma conta em um exchange bitcoin, você pode comprar e vender bitcoins rapidamente assim como você faria com uma moeda estrangeira em uma conta de corretagem.
+
+You can find a more complete list at bitcoin charts, a site that offers price quotes and other market data across many dozens of currency exchanges.
+
+There are four other methods for getting bitcoins as a new user:
+
+Find a friend who has bitcoins and buy some from him directly. Many bitcoin users start this way.
+
+Use a classified service such as localbitcoins.com to find a seller in your area to buy bitcoins for cash in an in-person transaction.
+
+Sell a product or service for bitcoin. If you’re a programmer, sell your programming skills.
+
+Use a bitcoin ATM in your city. Find a bitcoin ATM close to you using an online map from CoinDesk.
+
+Alice was introduced to bitcoin by a friend and so she has an easy way of getting her first bitcoins while she waits for her account on a California currency market to be verified and activated.
+
+Sending and Receiving Bitcoins
+
+Alice has created her bitcoin wallet and she is now ready to receive funds. Her wallet application randomly generated a private key (described in more detail in [private_keys]) together with its corresponding bitcoin address. At this point, her bitcoin address is not known to the bitcoin network or "registered" with any part of the bitcoin system. Her bitcoin address is simply a number that corresponds to a key that she can use to control access to the funds. There is no account or association between that address and an account. Until the moment this address is referenced as the recipient of value in a transaction posted on the bitcoin ledger (the blockchain), it is simply part of the vast number of possible addresses that are "valid" in bitcoin. Once it has been associated with a transaction, it becomes part of the known addresses in the network and Alice can check its balance on the public ledger.
+
+Alice meets her friend Joe, who introduced her to bitcoin, at a local restaurant so they can exchange some US dollars and put some bitcoins into her account. She has brought a printout of her address and the QR code as displayed in her bitcoin wallet. There is nothing sensitive, from a security perspective, about the bitcoin address. It can be posted anywhere without risking the security of her account.
+
+Alice wants to convert just 10 US dollars into bitcoin, so as not to risk too much money on this new technology. She gives Joe a $10 bill and the printout of her address so that Joe can send her the equivalent amount of bitcoin.
+
+Next, Joe has to figure out the exchange rate so that he can give the correct amount of bitcoin to Alice. There are hundreds of applications and websites that can provide the current market rate. Here are some of the most popular:
+
+Bitcoin Charts
+A market data listing service that shows the market rate of bitcoin across many exchanges around the globe, denominated in different local currencies
+
+Bitcoin Average
+A site that provides a simple view of the volume-weighted-average for each currency
+
+ZeroBlock
+A free Android and iOS application that can display a bitcoin price from different exchanges (see ZeroBlock, a bitcoin market-rate application for Android and iOS)
+
+Bitcoin Wisdom
+Another market data listing service
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0103.png)
 
