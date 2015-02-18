@@ -148,8 +148,9 @@ Uma carteira e uma plataforma americanas de bitcoin onde comerciantes e consumid
 
 Casas de câmbio de criptomoedas como essas operam na interseção entre moedas nacionais e criptomoedas. Assim elas estão sujeitas às normas nacionais e internacionais e, com frequência, são específcas a um determinado país ou região econômica e se especializam nas moedas nacionais daquela região. Sua escolha de casas de câmcio será específica para moeda nacional que você usa e limitada às exchanges que operam dentro da jurisdição legal de seu país. De maneira similar a uma conta bancária, pode levar vários dias ou semanas para configurar as contas necessárias com estes serviços pois eles requerem várias formas de identificação para atender às exigências das regulações bancárias KYC (_know your customer_ ou conheça seu cliente) e AML (_anti-money laundering_ ou combate à lavagem de dinheiro). Assim que você tiver uma conta em um exchange bitcoin, você pode comprar e vender bitcoins rapidamente assim como você faria com uma moeda estrangeira em uma conta de corretagem.
 
-You can find a more complete list at bitcoin charts, a site that offers price quotes and other market data across many dozens of currency exchanges.
+Você pode encontrar uma lista mais completa em [Bitcoin Charts](http://bitcoincharts.com/markets/), que é um site que mostra as cotações e outros dados de mercado através de muitas dúzias de casas de câmbio.
 
+Há outras 4 formas de 
 There are four other methods for getting bitcoins as a new user:
 
 Find a friend who has bitcoins and buy some from him directly. Many bitcoin users start this way.
