@@ -113,19 +113,20 @@ Alice segue um link do site bitcoin.org para baixar e instalar Multibit no PC de
 [Atenção]
 Uma carteira bitcoin deve ser protegida por uma senha ou frase. Há muitos agentes maliciosos tentando quebrar senhas fracas, então tenha o cuidado de selecionar uma que não possa ser facilmente adivinhada. Use uma combinação de caracteres maiúsculos e minúsculos, números e símbolos. Evite usar informação pessoal como datas de nascimento ou nomes de times de futebol. Evite quaiquer palavras facilmente encontradas em dicionários, em qualquer língua. Se puder, use um gerador de senhas para criar uma senha completamente aleatória que tenha no mínimo 12 caracteres de comprimento. Lembre-se: bitcoin é dinheiro e pode ser transferido instantaneamente para qualquer lugar do mundo. Se não for bem protegido, ele pode ser facilmente roubado.
 
-Assim que a Alice terminar de baixar e instalar a aplicação Multibit, ela o executa e a tela de Boas-Vindas lhe sauda, como mostrado na tela de boas-vindas do cliente Multibit.
+Assim que a Alice terminar de baixar e instalar a aplicação Multibit, ela o executa e a tela de Boas-Vindas a saúda, como mostrado na tela de boas-vindas do cliente Multibit.
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0101.png)
 
 Figura 1. A tela de boas-vindas do cliente bitcoin Multibit
 
-Multibit automatically creates a wallet and a new bitcoin address for Alice, which Alice can see by clicking the Request tab shown in Alice’s new bitcoin address, in the Request tab of the Multibit client.
+Multibit automaticamente cria uma carteira e um novo endereço bitcoin para Alice, que Alice pode ver fazendo clique na aba _Request_ que aparece no novo endereço da Alice, na aba _Request_ do cliente Multibit.
 
 
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0102.png)
 
 Figura 2. O novo endereço bitcoin da Alice, na aba _Request_ do cliente Multibit
+
 
 The most important part of this screen is Alice’s bitcoin address. Like an email address, Alice can share this address and anyone can use it to send money directly to her new wallet. On the screen it appears as a long string of letters and numbers: 1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK. Next to the wallet’s bitcoin address is a QR code, a form of barcode that contains the same information in a format that can be scanned by a smartphone camera. The QR code is the black-and-white square on the right side of the window. Alice can copy the bitcoin address or the QR code onto her clipboard by clicking the copy button adjacent to each of them. Clicking the QR code itself will magnify it, so that it can be easily scanned by a smartphone camera.
 
