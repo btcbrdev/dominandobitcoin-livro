@@ -119,15 +119,16 @@ Assim que a Alice terminar de baixar e instalar a aplicação Multibit, ela o ex
 
 Figura 1. A tela de boas-vindas do cliente bitcoin Multibit
 
-Multibit automaticamente cria uma carteira e um novo endereço bitcoin para Alice, que Alice pode ver fazendo clique na aba _Request_ que aparece no novo endereço da Alice, na aba _Request_ do cliente Multibit.
+Multibit automaticamente cria uma carteira e um novo endereço bitcoin para Alice, que Alice pode ver fazendo clique na aba _Solicitar_.
 
 
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0102.png)
 
-Figura 2. O novo endereço bitcoin da Alice, na aba _Request_ do cliente Multibit
+Figura 2. O novo endereço bitcoin da Alice, na aba _Solicitar_ do cliente Multibit
 
 
+A parte mais importante desta tela é o endereço bitcoin da Alice. Assim como um endereço de email, a Alice pode compartilhar este endereço e qualquer um pode usá-lo para mandar dinheiro diretamente para 
 The most important part of this screen is Alice’s bitcoin address. Like an email address, Alice can share this address and anyone can use it to send money directly to her new wallet. On the screen it appears as a long string of letters and numbers: 1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK. Next to the wallet’s bitcoin address is a QR code, a form of barcode that contains the same information in a format that can be scanned by a smartphone camera. The QR code is the black-and-white square on the right side of the window. Alice can copy the bitcoin address or the QR code onto her clipboard by clicking the copy button adjacent to each of them. Clicking the QR code itself will magnify it, so that it can be easily scanned by a smartphone camera.
 
 Alice can also print the QR code as a way to easily give her address to others without them having to type the long string of letters and numbers.
