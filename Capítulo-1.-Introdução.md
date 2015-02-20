@@ -152,18 +152,17 @@ Casas de câmbio de criptomoedas como essas operam na interseção entre moedas 
 
 Você pode encontrar uma lista mais completa em [Bitcoin Charts](http://bitcoincharts.com/markets/), que é um site que mostra as cotações e outros dados de mercado através de muitas dúzias de casas de câmbio.
 
-Há outras 4 formas de 
-There are four other methods for getting bitcoins as a new user:
+Há outras 4 formas de conseguir bitcoins como um novo usuário:
 
-Find a friend who has bitcoins and buy some from him directly. Many bitcoin users start this way.
+* Encontre um amigo que tem bitcoins e compre alguns dele diretamente. Muitos usuários de bitcoin começam assim.
 
-Use a classified service such as localbitcoins.com to find a seller in your area to buy bitcoins for cash in an in-person transaction.
+* Use um serviço de classificados como localbitcoins.com para encontrar um vendedor na sua área para comprar os bitcoins pagando em dinheiro em uma transação em pessoa.
 
-Sell a product or service for bitcoin. If you’re a programmer, sell your programming skills.
+* Venda um produto ou serviço por bitcoin. Se você for um programador, venda as suas habilidades de programação.
 
-Use a bitcoin ATM in your city. Find a bitcoin ATM close to you using an online map from CoinDesk.
+* Use um ATM bitcoin na sua cidade. Encontre um ATM bitcoin perto de você usando um mapa online da CoinDesk.
 
-Alice was introduced to bitcoin by a friend and so she has an easy way of getting her first bitcoins while she waits for her account on a California currency market to be verified and activated.
+Alice foi apresentada ao bitcoin por um amigo e portanto ela tinha uma maneira fácil de conseguir os primeiros bitcoins dela enquanto ela espera que a conta dela em um mercado de moedas na Califórnia seja verificada e ativada.
 
 Sending and Receiving Bitcoins
 
