@@ -26,10 +26,10 @@ Dificuldade (difficulty)::
   Uma configuração de toda a rede que controla a quantidade de computação que é requirido para produzir uma prova de trabalho.((("difficulty")))
 
 Dificuldade alvo (difficulty target)::
- 	A difficulty at which all the computation in the network will find blocks approximately every 10 minutes.((("target difficulty")))
+ 	Uma dificuldade no qual a computação da rede ira encontrar blocos aproximadamente a cada 10 minutos.((("target difficulty")))
 
 difficulty retargeting::
-	A network-wide recalculation of the difficulty that occurs once every 2,106 blocks and considers the hashing power of the previous 2,106 blocks.((("difficulty retargeting")))
+	Um recálculo feito pela rede da dificuldade, que ocorre uma vez a cada 2.106 blocos e considera o poder de hash dos 2.106 blocos anteriores.((("difficulty retargeting")))
 
 fees::
   O remetente de uma operação muitas vezes inclui uma taxa para a rede para o processamento da transação solicitada. A maioria das transações exigem uma taxa mínima de 0,5 MBTC.((("fees")))
