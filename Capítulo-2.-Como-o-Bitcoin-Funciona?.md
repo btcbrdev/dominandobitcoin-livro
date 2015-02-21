@@ -113,7 +113,7 @@ Example 1. Look up all the unspent outputs for Alice’s bitcoin address
 
 Example 2. Response to the lookup
 
-----
+
 {
 
 	"unspent_outputs":[
@@ -130,5 +130,4 @@ Example 2. Response to the lookup
 
 	]
 }
-----
 
