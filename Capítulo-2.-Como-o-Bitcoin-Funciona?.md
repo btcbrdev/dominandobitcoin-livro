@@ -108,13 +108,16 @@ Example 1. Look up all the unspent outputs for Alice’s bitcoin address
 
 
 {
+
  $ curl https://blockchain.info/unspent?active=1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK
+
 }
 
 Example 2. Response to the lookup
 
 
 {
+
 {
 	"unspent_outputs":[
 
@@ -130,4 +133,5 @@ Example 2. Response to the lookup
   
 	]
 }
+
 }
