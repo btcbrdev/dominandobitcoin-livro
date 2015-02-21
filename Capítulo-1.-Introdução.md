@@ -159,7 +159,7 @@ Há outras 4 formas de conseguir bitcoins como um novo usuário:
 
 * Venda um produto ou serviço por bitcoin. Se você for um programador, venda as suas habilidades de programação.
 
-* Use um ATM bitcoin na sua cidade. Encontre um ATM bitcoin perto de você usando um mapa online da CoinDesk.
+* Use um caixa eletrônico bitcoin na sua cidade. Encontre um perto de você usando um mapa online da CoinDesk.
 
 Alice foi apresentada ao bitcoin por um amigo e portanto ela tinha uma maneira fácil de conseguir os primeiros bitcoins dela enquanto ela espera que a conta dela em um mercado de moedas na Califórnia seja verificada e ativada.
 
