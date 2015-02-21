@@ -19,18 +19,18 @@ Neste capítulo inicial ensinaremos alguns dos principais conceitos e termos, al
 
 ### Moedas Digitais Antes do Bitcoin
 
-O surgimento de um dinheiro digital viável está intimamente relacionada à evolução da criptografia. Não é uma surpresa quando alguém leva em conta que os desafios fundamentais envolvidos no uso de bits para representar valor que pode ser trocado por bens e serviços. Duas perguntas básicas feitas por qualquer um que aceite dinheiro digital são:
+O surgimento de uma moeda digital viável está intimamente relacionado à evolução da criptografia. Não é uma surpresa quando alguém leva em conta que os desafios fundamentais envolvidos no uso de bits para representar valor que pode ser trocado por bens e serviços. Duas perguntas básicas feitas por qualquer um que aceite dinheiro digital são:
 
 1. Posso confiar que o dinheiro é autêntico e não falsificado?
 2. Posso estar seguro de que ninguém vai reclamar que esse dinheiro lhe pertence e não a mim? (também conhecido como o problema do "gasto duplicado")
 
-Os emissores do dinheiro em papel estão o tempo todo batalhando o problema da falsificação com o uso de papéis e tecnologias de impressão cada vez mais sofisticados. O dinheiro físico resolve facilmente o problema do gasto duplicado, pois a mesma nota em papel não pode estar em dois lugares ao mesmo tempo. Mas é claro, o dinheiro convencional com frequência se armazena e se transmite de forma digital. Nestes casos, os problemas de falsicação e de gastos duplicados são tratados pela compensação de todas as transações eletrônicas através de autoridades centrais que detêm uma visão global da moeda em circulação. No caso do dinheiro digital, que não pode se beneficiar de tintas esotéricas ou marcas holográficas, a criptografia proporciona a base da confiança na legitimidade da exigência de um usuário pelo seu valor. Especificamente, as assinaturas digitais criptográficas permitem a um usuário assinar um ativo digital ou transação provando a posse do ativo. Com a arquitetura apropriada, as assinaturas digitais também podem ser usadas para resolver o problema do gasto duplicado. 
+Os emissores do dinheiro em papel estão o tempo todo enfrentando o problema da falsificação com o uso de papéis e tecnologias de impressão cada vez mais sofisticados. O dinheiro físico resolve facilmente o problema do gasto duplicado, pois a mesma nota em papel não pode estar em dois lugares ao mesmo tempo. Mas é claro, o dinheiro convencional com frequência se armazena e se transmite de forma digital. Nestes casos, os problemas de falsicação e de gastos duplicados são tratados pela compensação de todas as transações eletrônicas através de autoridades centrais que detêm uma visão global da moeda em circulação. No caso do dinheiro digital, que não pode se beneficiar de tintas esotéricas ou marcas holográficas, a criptografia proporciona a base da confiança na legitimidade da exigência de um usuário pelo seu valor. Especificamente, as assinaturas digitais criptográficas permitem a um usuário assinar um ativo digital ou transação provando a posse do ativo. Com a arquitetura apropriada, as assinaturas digitais também podem ser usadas para resolver o problema do gasto duplicado. 
 
 Quando a criptografia começou a se tornar mais comum e entendida no final dos anos 80, muitos pesquisadores começaram a tentar usá-la para construir moedas digitais. Estes projetos pioneiros emitiam dinheiro digital, normalmente embasado por uma moeda nacional ou um metal precioso como o ouro.
 
 Apesar destas moedas digitais pioneiras funcionarem, elas eram centralizadas e, como resultado, eram fáceis de atacar tanto por governos como por _hackers_. As moedas digitais pioneiras usavam uma central de compensação para finalizar todas as transações em intervalos regulares, da mesma forma que um sistema bancário tradicional. Infelizmente, em muitos casos essas moedas digitais que surgiam se tornavam um alvo dos governos preocupados e eventualmente desapareciam. Algumas falharam em quebras espetaculares quando a companhia responsável era liquidada de repente. Para ser robusta contra a intervenção de opositores, sejam governos legítimos ou elementos criminais, uma moeda descentralizada digital se tornava necessária para evitar um único ponto de ataque. Este sistema é Bitcoin, completamente descentralizado por _design_, e livre de qualquer autoridade central ou ponto de controle que pode ser atacado ou corrompido.
 
-O Bitcoin representa o auge de décadas de pesquisa em criptografia e sistemas distribuídos e inclui quatrp inovações chaves unidas em uma combinação única e poderosa. O Bitcoin consiste em:
+O Bitcoin representa o auge de décadas de pesquisa em criptografia e sistemas distribuídos e inclui quatro inovações chaves unidas em uma combinação única e poderosa. O Bitcoin consiste em:
 
 * Uma rede _peer-to-peer_ descentralizada (o protocolo bitcoin)
 * Um registro público de transações (a blockchain ou cadeia de blocos)
@@ -50,11 +50,11 @@ O invento de Satoshi Nakamoto é também uma solução prática para um problema
 
 ##Usos do Bitcoin, Seus Usuários e Suas Histórias
 
-Bitcoin é uma tecnologia, mas ela expressa dinheiro que é fundamentalmente uma linguagem para a troca de valor entre pessoas. Vamos dar uma olhada nas pessoas que estão usando bitcoin e alguns dos usos mais comuns da moeda e do protocolo através de suas histórias. Iremos reutilizar essas histórias ao largo do livro para ilustrar os usos do dinheiro digital na vida real e como eles se tornaram possíveis por meio das várias tecnologias que formam parte do bitcoin.
+Bitcoin é uma tecnologia usada para representar dinheiro, que é fundamentalmente uma linguagem para a troca de valor entre pessoas. Vamos conhecer as histórias de pessoas que estão usando bitcoin e alguns dos usos mais comuns da moeda e do protocolo. Iremos reutilizar essas histórias ao longo do livro para ilustrar os usos do dinheiro digital na vida real e como eles se tornaram possíveis por meio das várias tecnologias que são empregadas no bitcoin.
 
 _**Comércio de ítems de baixo valor nos Estados Unidos**_
 
-A Alice mora na área da baía da Califórnia do Norte. Ela ouviu falar sobre o bitcoin através dos seus amigos tecnólogos e quer começar a usá-lo. Iremos acompanhar sua história de como ela aprende a respeito do bitcoin, adquire alguns e então gasta alguns dos bitcoins dela para comprar uma xícara de café no Bob's Cafe em Palo Alto. Esta história nos vai apresentar ao _software_, às casas de câmbio e às transações básicas desde a perspectiva de um consumidor do varejo.
+A Alice mora na área da baía da Califórnia do Norte. Ela ouviu falar sobre o bitcoin através dos seus amigos e quer começar a usá-lo. Iremos acompanhar a história de como ela aprende a respeito do bitcoin, adquire alguns e então gasta alguns dos bitcoins dela para comprar uma xícara de café no Bob's Cafe em Palo Alto. Esta história nos vai apresentar ao _software_, às casas de câmbio e às transações básicas desde a perspectiva de um consumidor do varejo.
 
 _**Comércio de ítems de alto valor nos Estados Unidos**_
 
@@ -90,7 +90,7 @@ Um cliente completo, ou "nó completo", é um cliente que armazena todo o histó
 
 _**Cliente compacto**_
 
-Um cliente compacto guarda a carteira do usuário mas depende de servidores mantidos por terceiros para ter acesso às transações e à rede Bitcoin. O cliente compacto não guarda uma cópia completa de todas as transações e portanto precisa confiar nos servidores de terceiros para validar transações. É similar a um cliente de email autônomo que se conecta a um servidor de email para acessar uma caixa de emails, no sentido de que depende de um terceiro para interagir com a rede.
+Um cliente compacto guarda a carteira do usuário, mas depende de servidores mantidos por terceiros para ter acesso às transações e à rede Bitcoin. O cliente compacto não guarda uma cópia completa de todas as transações e portanto precisa confiar nos servidores de terceiros para validar transações. É similar a um cliente de email autônomo que se conecta a um servidor de email para acessar uma caixa de emails, no sentido de que depende de um terceiro para interagir com a rede.
 
 _**Cliente web**_
 
@@ -98,9 +98,9 @@ Os clientes web se utilizam através de um navegador web e armazena a carteira d
 
 _**Clientes móveis**_
 
-Os clientes móveis para smartphones, tais como aqueles baseados no sistema Android, pode operar tanto como clientes completos, clientes compactos ou clientes web. Alguns clientes móveis se sincronizam com um cliente web ou de PC, propocionando assim uma carteira multiplataforma entre múltiplos dispositivos mas com uma fonte comum de fundos.
+Os clientes móveis para smartphones, tais como aqueles baseados no sistema Android, podem operar tanto como clientes completos, quanto compactos ou web. Alguns clientes móveis se sincronizam com um cliente web ou de PC, proporcionando assim uma carteira multiplataforma entre múltiplos dispositivos, mas com uma fonte comum de fundos.
 
-A escolha do cliente bitcoin depende de quanto controle o usuário quer sobre os fundos. Um cliente completo irá oferecer o máximo nível de controle e independência do usuário mas, em compensação, deixa a responsabilidade pelos backups e pela segurança nas mãos do usuário. No outro extremo de opções, um cliente web é o mais fácil de configurar de de usar mas, em compensação, um cliente web introduz um risco de contraparte já que a segurança e o controle se compartilha com o usuário e o dono do serviço web. Se um serviço de carteira web é comprometido, como muitos já foram, os usuários podem perder todos os seus fundos. Por outro lado, se os usuários tiverem um cliente completo sem os backups adequados, eles podem perder todos os seus fundos por causa de um contratempo do computador.
+A escolha do cliente bitcoin depende de quanto controle o usuário quer sobre os fundos. Um cliente completo irá oferecer o máximo nível de controle e independência do usuário, mas, em compensação, deixa a responsabilidade pelos backups e pela segurança nas mãos do usuário. No outro extremo de opções, um cliente web é o mais fácil de configurar de de usar, mas, em compensação, introduz um risco adicional, já que a segurança e o controle são compartilhados com o usuário e o dono do serviço web. Se um serviço de carteira web é comprometido, como muitos já foram, os usuários podem perder todos os seus fundos. Por outro lado, se os usuários tiverem um cliente completo sem os backups adequados, eles podem perder todos os seus fundos por causa de um contratempo do computador.
 
 Para os propósitos deste livro, demonstraremos o uso de uma variedade de clientes bitcoin que se podem baixar, desde a implementação de referência (o cliente Satoshi) às carteiras web. Alguns dos exemplos vão necessitar o uso do cliente de referência, que além de ser um cliente completo também expõe APIs de acesso à carteira, à rede e aos serviços de transações. Se você planeja explorar as interfaces programáticas de acesso ao sistema Bitcoin, você irá precisar do cliente de referência.
 
