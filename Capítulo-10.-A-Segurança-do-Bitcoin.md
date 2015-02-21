@@ -40,7 +40,7 @@ Apesar de décadas de pesquisas e avanços na segurança da informação, os ati
 
 Fortunately, bitcoin also creates the incentives to improve computer security. Whereas previously the risk of computer compromise was vague and indirect, bitcoin makes these risks clear and obvious. Holding bitcoin on a computer serves to focus the user’s mind on the need for improved computer security. As a direct result of the proliferation and increased adoption of bitcoin and other digital currencies, we have seen an escalation in both hacking techniques and security solutions. In simple terms, hackers now have a very juicy target and users have a clear incentive to defend themselves.
 
-Over the past three years, as a direct result of bitcoin adoption, we have seen tremendous innovation in the realm of information security in the form of hardware encryption, key storage and hardware wallets, multi-signature technology, and digital escrow. In the following sections we will examine various best practices for practical user security.
+Ao longo dos últimos anos, como resultado direto da adoção ao bitcoin, temos observado grandes inovações na área da segurança da informação, na forma de criptografia em hardware, armazenamento de chaves e carteiras de hardware, tecnologia de múltiplas assinaturas e garantias digitais. Nas próximas seções nós iremos examinar as melhores práticas para a segurança do usuário.
 
 ### Armazenamento Físico de Bitcoins
 
