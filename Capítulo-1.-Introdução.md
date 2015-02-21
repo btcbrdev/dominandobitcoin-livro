@@ -128,18 +128,18 @@ Multibit automaticamente cria uma carteira e um novo endereço bitcoin para Alic
 Figura 2. O novo endereço bitcoin da Alice, na aba _Solicitar_ do cliente Multibit
 
 
-A parte mais importante desta tela é o endereço bitcoin da Alice. Assim como um endereço de email, a Alice pode compartilhar este endereço e qualquer um pode usá-lo para mandar dinheiro diretamente à carteira dela. Na tela aparece uma longa sequência de letras e números: 1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK. Junto ao endereço bitcoin da carteira está um código QR, um forma de código de barras que contém a mesma informação mas em um formato que pode ser escaneado pela câmera de um smartphone. O código QR é o quadrado branco e negro no lado direito da janela. A Alice pode copiar o endereço bitcoin ou o código QR clicando no botão _copy_ junto de cada um deles. Ao clicar no próprio código QR ele será ampliado, podendo facilmente ser escaneado pela câmera de um smartphone.
+A parte mais importante desta tela é o endereço bitcoin da Alice. Assim como um endereço de email, a Alice pode compartilhar este endereço e qualquer um pode usá-lo para mandar dinheiro diretamente à carteira dela. Na tela aparece uma longa sequência de letras e números: 1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK. Junto ao endereço bitcoin da carteira está um código QR, uma forma de código de barras que contém a mesma informação, mas em um formato que pode ser escaneado pela câmera de um smartphone. O código QR é a imagem quadrada que contém pequenos quadrados preto e brancos no lado direito da janela. A Alice pode copiar o endereço bitcoin ou o código QR clicando no botão _copy_ junto de cada um deles. Ao clicar no próprio código QR ele será ampliado, podendo facilmente ser escaneado pela câmera de um smartphone.
 
 A Alice pode também imprimir o código QR para entregar facilmente seu endereço a outras pessoas sem que eles tenham de se lembrar de digitar uma longa sequência de letras e números.
 
 [Dica]
-> Os endereços bitcoin começam sempre com o dígito 1 ou o dígito 3. Assim como endereços de email, eles podem ser compartilhados com outros usuários bitcoin que podem usá-los para mandar bitcoin diretamente a sua carteira. Ao contrário dos endereços de email, você pode criar tantos novos endereços como queira, e todos receberão fundos em sua carteira. Uma carteira é simplesmente uma coleção de endereços e as chaves que desbloqueiam os fundos que estão nela. Você pode aumentar a sua privacidade usando um endereço diferente para cada transação. Não há nenhuma limitação na quantidade de endereços que um usuário pode criar.
+> Os endereços bitcoin começam sempre com o dígito 1 ou o dígito 3. Assim como endereços de email, eles podem ser compartilhados com outros usuários bitcoin que podem usá-los para mandar bitcoin diretamente a sua carteira. Ao contrário dos endereços de email, você pode criar novos endereços à vontade, e todos receberão fundos em sua carteira. Uma carteira é simplesmente uma coleção de endereços e as chaves que desbloqueiam os fundos que estão nela. Você pode aumentar a sua privacidade usando um endereço diferente para cada transação. Não há nenhuma limitação na quantidade de endereços que um usuário pode criar.
 
-Agora a Alice está pronta para começar a usar a nova carteira bitcoin dela.
+Agora a Alice está pronta para começar a usar sua nova carteira bitcoin.
 
 ###Obtendo Os Seus Primeiros Bitcoins
 
-Ainda não é possível comprar os bitcoins em um banco ou casa de câmbio de moedas estrangeiras. Em 2014, ainda é muito difícil adquirir bitcoins na maior parte dos países. Há algumas casas de câmbio especializadas onde você pode comprar e vender bitcoin pagando com a sua moeda local. Estas operam como os mercados de moedas online e delas fazem parte:
+Ainda não é possível comprar os bitcoins em um banco ou casa de câmbio de moedas estrangeiras. Em 2014, ainda era difícil adquirir bitcoins na maior parte dos países. Há algumas casas de câmbio especializadas onde você pode comprar e vender bitcoin pagando com a sua moeda local. Estas operam como os mercados de moedas online e delas fazem parte:
 
 _**Bitstamp**_
 Um mercado de moedas europeu que permite comprar várias moedas inclusive euros (EUR) e dólares americanos (USD) por transferência bancária.
@@ -151,21 +151,21 @@ Casas de câmbio de criptomoedas como essas operam na interseção entre moedas 
 
 Você pode encontrar uma lista mais completa em [Bitcoin Charts](http://bitcoincharts.com/markets/), que é um site que mostra as cotações e outros dados de mercado através de muitas dúzias de casas de câmbio.
 
-Há outras 4 formas de conseguir bitcoins como um novo usuário:
+Há outras quatro formas de conseguir bitcoins como um novo usuário:
 
-* Encontre um amigo que tem bitcoins e compre alguns dele diretamente. Muitos usuários de bitcoin começam assim.
+* Encontre um amigo que tenha bitcoins e compre dele diretamente. Muitos usuários de bitcoin começam assim.
 
 * Use um serviço de classificados como localbitcoins.com para encontrar um vendedor na sua área para comprar os bitcoins pagando em dinheiro em uma transação em pessoa.
 
 * Venda um produto ou serviço por bitcoin. Se você for um programador, venda as suas habilidades de programação.
 
-* Use um caixa eletrônico bitcoin na sua cidade. Encontre um perto de você usando um mapa online da CoinDesk.
+* Use um caixa eletrônico de bitcoin na sua cidade. Você pode encontrar o mais perto de você consultando em um mapa online da CoinDesk.
 
 Alice foi apresentada ao bitcoin por um amigo e portanto ela tinha uma maneira fácil de conseguir os primeiros bitcoins dela enquanto ela espera que a conta dela em um mercado de moedas na Califórnia seja verificada e ativada.
 
 ###Mandando e Recebendo Bitcoins
 
-Depois de criar a carteira bitcoin dela, a Alice agora está pronta para receber fundos. A aplicação de carteira gera aleatoriamente uma chave privada (descrita em mais detalhes em [private_keys]) junto com o endereço bitcoin correspondente. A partir deste ponto, o endereço bitcoin dela ainda não é conhecido na rede bitcoin nem "registrado" com qualquer parte do sistema bitcoin. Os endereços bitcoin dela é simplesmente um número que corresponde a uma chave que ela pode usar para controlar o acesso aos fundos. Não há uma conta ou associação entre aquele endereço e uma conta. Até o momento em que este endereço esteja referenciado como o destinatário de um valor em uma transação publicada no registro contábil de bitcoin (a cadeia de blocos), ele é simplesmente parte da vasta quantidade de possíveis endereços considerados "válidos" em bitcoin. A partir do momento em que esteja associado com uma transação, ele se torna parte dos endereços conhecidos na rede e a Alice poderá comprovar o saldo dela no registro público.
+Depois de criar a sua carteira bitcoin, a Alice agora está pronta para receber fundos. O aplicativo de carteira gera aleatoriamente uma chave privada (descrita em mais detalhes em [private_keys]) junto com o endereço bitcoin correspondente. A partir deste ponto, o endereço bitcoin dela ainda não é conhecido na rede bitcoin, nem "registrado" em qualquer parte do sistema bitcoin. O endereço bitcoin dela é simplesmente um número que corresponde a uma chave que ela pode usar para controlar o acesso aos fundos. Não há uma conta ou associação entre aquele endereço e uma conta. Até o momento em que este endereço esteja referenciado como o destinatário de um valor em uma transação publicada no registro contábil de bitcoin (a cadeia de blocos), ele é simplesmente parte da vasta quantidade de possíveis endereços considerados "válidos" em bitcoin. A partir do momento em que esteja associado com uma transação, ele se torna parte dos endereços conhecidos na rede e a Alice poderá comprovar o saldo dela no registro público.
 
 A Alice se encontrou com o amigo dela, o Joe, que a apresentou ao bitcoin, em um restaurante local para que eles possam trocar alguns dólares e colocar bitcoins na conta dela. Ela trouxe um papel com o endereço dela e o código QR impressos conforme aparecem na carteira bitcoin. Não há nenhuma informação que deva ser protegida, desde um ponto de vista de segurança, no endereço bitcoin. Ele pode ser publicado em qualquer lugar sem nenhum risco de segurança da conta dela.
 
@@ -195,14 +195,10 @@ Figura 4. A tela de envio de bitcoin da carteira móvel Blockchain
 
 Então o Joe digita o valor em bitcoins da transação, 0.10 bitcoin. Ele confere com cuidado para ter certeza de que digitou a quantia correta, pois ele está a ponto de transmitir dinheiro e qualquer erro pode sair muito caro. Finalmente ele aperta _Send_ para transmitir a transação. A carteira móvel do Joe constrói a transação que assigna 0.10 bitcoin ao endereço da Alice, gerando os fundos da carteira do Joe e assinando a transação com as chaves privadas dele. Isso informa a rede bitcoin que o Joe autorizou uma transferência de valor de one de seus endereços para o novo endereço da Alice. À medida que a transação se transmite conforme o protocolo _peer-to-peer_, ele rapidamente se propaga pela rede bitcoin. Em menos de 1 segundo, a maioria dos nós melhor conectados da rede recebem a transação e vêem o endereço da Alice pela primeira vez.
 
-Se a Alice tivesse trazido um smartphone ou um laptop com ela, ela seria também capaz de ver a transação. O registro contábil do bitcoin, que é um arquivo que não pára de crescer e que guarda cada uma das transações em bitcoin que já ocorreram desde o início, é público e isso significa que tudo que ela tem de fazer é olhar seu próprio endereço e ver se quaisquer fundos foram mandados para ele. É muito fácil para ela fazer isto no site da blockchain.info, digitando o endereço dela no campo de busca. O website lhe vai mostrar uma página listando todas as transações de e para esse endereço. Se a Alice estiver olhando essa página, vai ver uma atualização que mostra uma nova transação transferindo 0.10 bitcoin para o saldo dela logo depois do Joe apertar _Send_.
+Se a Alice tivesse trazido um smartphone ou um laptop com ela, ela seria também capaz de ver a transação. O registro contábil do bitcoin, que é um arquivo que não pára de crescer e que guarda cada uma das transações em bitcoin que já ocorreram desde o início, é público e isso significa que tudo que ela tem de fazer é olhar seu próprio endereço e ver se quaisquer fundos foram mandados para ele. É muito fácil para ela fazer isto no site da blockchain.info, digitando o endereço dela no campo de busca. O website lhe vai mostrar uma página listando todas as transações de e para esse endereço. Se a Alice estiver olhando essa página, vai ver uma atualização que mostra uma nova transação transferindo 0,10 bitcoin para o saldo dela logo depois do Joe apertar _Send_.
 
 ### Confirmações
 
-Ao princípio, o endereço da Alice vai mostrar a transação do Joe como "Transação não Confirmada." Isto significa que a transação já se propagou pela rede mas ainda não foi incluída no registro contábil de transações do bitcoin, conhecido como a cadeia de blocos (_blockchain_). Para ser incluída, a transação deve ser "escolhida" por um mineiro e incluída em um bloco de transações. Quando um novo bloco é criado, em aproximadamente 10 minutos, as transações dentro do bloco passam a ser aceitas como "Confirmadas" pela rede e a poder ser gastas. A transação é vista instantaneamente por todos, mas só se torna "confiada" por todos quando está incluida em um novo bloco minerado.
+Inicialmente, o endereço da Alice vai mostrar a transação do Joe como "Transação não Confirmada." Isto significa que a transação já se propagou pela rede, mas ainda não foi incluída no registro contábil de transações do bitcoin, conhecido como a cadeia de blocos (_blockchain_). Para ser incluída, a transação deve ser "escolhida" por um mineiro e incluída em um bloco de transações. Quando um novo bloco é criado, em aproximadamente 10 minutos, as transações dentro do bloco passam a ser aceitas como "Confirmadas" pela rede e a poder ser gastas. A transação é vista instantaneamente por todos, mas só se torna "confiada" por todos quando está incluida em um novo bloco minerado.
 
-A Alice agora é a orgulhosa dona de 0.10 bitcoin, que ela pode gastar. No próximo capítulo iremos olhar na sua primeira compra com bitcoin e examinar as tecnologias subjacentes de transação e propagação em mais detalhes.
-
-
-
-
+A Alice agora é a orgulhosa dona de 0,10 bitcoin, que ela pode gastar. No próximo capítulo, observaremos sua primeira compra com bitcoin e examinaremos em mais detalhes as tecnologias de transação e propagação envolvidas.
