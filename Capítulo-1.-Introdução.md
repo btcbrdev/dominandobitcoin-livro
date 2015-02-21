@@ -173,17 +173,17 @@ A Alice quer trocar somente 10 dólares americanos por bitcoin, para que assim e
 
 A seguir, o Joe tem que descobrir a taxa de câmbio para que ele possa dar a quantia correta à Alice. Há centenas de aplicações e páginas web que podem proporcionar a taxa de mercado atual. Aqui há algumas das mais populares:
 
-Bitcoin Charts
-A market data listing service that shows the market rate of bitcoin across many exchanges around the globe, denominated in different local currencies
+_**Bitcoin Charts**_
+ Um serviço de listagem de dados do mercado que mostra a taxa de câmbio do bitcoin em várias casas de câmbio em todo o planeta, nas diferentes moedas locais
 
-Bitcoin Average
-A site that provides a simple view of the volume-weighted-average for each currency
+_**Bitcoin Average**_
+ Um site que permite, de forma simples, ver a média ponderada dos volumes negociados em cada moeda. 
 
-ZeroBlock
-A free Android and iOS application that can display a bitcoin price from different exchanges (see ZeroBlock, a bitcoin market-rate application for Android and iOS)
+_**ZeroBlock**_
+ Uma aplicação grátis para Android e iOS que mostra o preço do bitcoin em diferentes casas de câmbio (procure por "ZeroBlock, _a bitcoin market-rate application for Android and iOS_")
 
-Bitcoin Wisdom
-Another market data listing service
+_**Bitcoin Wisdom**_
+ Outro serviço de listagem de dados de mercado
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0103.png)
 
@@ -193,7 +193,7 @@ Figura 3. ZeroBlock, uma aplicação de preço de mercado do bitcoin para Androi
 
 Figura 4. A tela de envio de bitcoin da carteira móvel Blockchain
 
-Joe then enters the bitcoin value for the transaction, 0.10 bitcoin. He carefully checks to make sure he has entered the correct amount, because he is about to transmit money and any mistake could be costly. Finally, he presses Send to transmit the transaction. Joe’s mobile bitcoin wallet constructs a transaction that assigns 0.10 bitcoin to the address provided by Alice, sourcing the funds from Joe’s wallet and signing the transaction with Joe’s private keys. This tells the bitcoin network that Joe has authorized a transfer of value from one of his addresses to Alice’s new address. As the transaction is transmitted via the peer-to-peer protocol, it quickly propagates across the bitcoin network. In less than a second, most of the well-connected nodes in the network receive the transaction and see Alice’s address for the first time.
+Então o Joe digita o valor em bitcoins da transação, 0.10 bitcoin. Ele confere com cuidado para ter certeza de que digitou a quantia correta, pois ele está a ponto de transmitir dinheiro e qualquer erro pode sair muito caro. Finalmente ele aperta _Send_ para transmitir a transação. A carteira móvel do Joe constrói a transação que assigna 0.10 bitcoin ao endereço da Alice, gerando os fundos da carteira do Joe e assinando a transação com as chaves privadas dele. Isso informa a rede bitcoin que o Joe autorizou uma transferência de valor de one de seus endereços para o novo endereço da Alice. À medida que a transação se transmite conforme o protocolo _peer-to-peer_, ele rapidamente se propaga pela rede bitcoin. Em menos de 1 segundo, a maioria dos nós melhor conectados da rede recebem a transação e vêem o endereço da Alice pela primeira vez.
 
 If Alice has a smartphone or laptop with her, she will also be able to see the transaction. The bitcoin ledger—a constantly growing file that records every bitcoin transaction that has ever occurred—is public, meaning that all she has to do is look up her own address and see if any funds have been sent to it. She can do this quite easily at the blockchain.info website by entering her address in the search box. The website will show her a page listing all the transactions to and from that address. If Alice is watching that page, it will update to show a new transaction transferring 0.10 bitcoin to her balance soon after Joe hits Send.
 
