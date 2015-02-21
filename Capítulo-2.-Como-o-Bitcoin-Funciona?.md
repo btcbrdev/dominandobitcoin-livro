@@ -107,8 +107,28 @@ If the wallet application does not maintain a copy of unspent transaction output
 Example 1. Look up all the unspent outputs for Alice’s bitcoin address
 
 
-====
 ----
-$ curl https://blockchain.info/unspent?active=1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK
+ $ curl https://blockchain.info/unspent?active=1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK
 ----
-====
+
+Example 2. Response to the lookup
+
+----
+{
+
+	"unspent_outputs":[
+
+		{
+			"tx_hash":"186f9f998a5...2836dd734d2804fe65fa35779",
+			"tx_index":104810202,
+			"tx_output_n": 0,
+			"script":"76a9147f9b1a7fb68d60c536c2fd8aeaa53a8f3cc025a888ac",
+			"value": 10000000,
+			"value_hex": "00989680",
+			"confirmations":0
+		}
+
+	]
+}
+----
+
