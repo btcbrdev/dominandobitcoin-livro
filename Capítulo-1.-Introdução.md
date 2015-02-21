@@ -128,15 +128,14 @@ Multibit automaticamente cria uma carteira e um novo endereço bitcoin para Alic
 Figura 2. O novo endereço bitcoin da Alice, na aba _Solicitar_ do cliente Multibit
 
 
-A parte mais importante desta tela é o endereço bitcoin da Alice. Assim como um endereço de email, a Alice pode compartilhar este endereço e qualquer um pode usá-lo para mandar dinheiro diretamente para 
-The most important part of this screen is Alice’s bitcoin address. Like an email address, Alice can share this address and anyone can use it to send money directly to her new wallet. On the screen it appears as a long string of letters and numbers: 1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK. Next to the wallet’s bitcoin address is a QR code, a form of barcode that contains the same information in a format that can be scanned by a smartphone camera. The QR code is the black-and-white square on the right side of the window. Alice can copy the bitcoin address or the QR code onto her clipboard by clicking the copy button adjacent to each of them. Clicking the QR code itself will magnify it, so that it can be easily scanned by a smartphone camera.
+A parte mais importante desta tela é o endereço bitcoin da Alice. Assim como um endereço de email, a Alice pode compartilhar este endereço e qualquer um pode usá-lo para mandar dinheiro diretamente à carteira dela. Na tela aparece uma longa sequência de letras e números: 1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK. Junto ao endereço bitcoin da carteira está um código QR, um forma de código de barras que contém a mesma informação mas em um formato que pode ser escaneado pela câmera de um smartphone. O código QR é o quadrado branco e negro no lado direito da janela. A Alice pode copiar o endereço bitcoin ou o código QR clicando no botão _copy_ junto de cada um deles. Ao clicar no próprio código QR ele será ampliado, podendo facilmente ser escaneado pela câmera de um smartphone.
 
-Alice can also print the QR code as a way to easily give her address to others without them having to type the long string of letters and numbers.
+A Alice pode também imprimir o código QR para entregar facilmente seu endereço a outras pessoas sem que eles tenham de se lembrar de digitar uma longa sequência de letras e números.
 
-Tip
-Bitcoin addresses start with the digit 1 or 3. Like email addresses, they can be shared with other bitcoin users who can use them to send bitcoin directly to your wallet. Unlike email addresses, you can create new addresses as often as you like, all of which will direct funds to your wallet. A wallet is simply a collection of addresses and the keys that unlock the funds within. You can increase your privacy by using a different address for every transaction. There is practically no limit to the number of addresses a user can create.
+[Dica]
+> Os endereços bitcoin começam sempre com o dígito 1 ou o dígito 3. Assim como endereços de email, eles podem ser compartilhados com outros usuários bitcoin que podem usá-los para mandar bitcoin diretamente a sua carteira. Ao contrário dos endereços de email, você pode criar tantos novos endereços como queira, e todos receberão fundos em sua carteira. Uma carteira é simplesmente uma coleção de endereços e as chaves que desbloqueiam os fundos que estão nela. Você pode aumentar a sua privacidade usando um endereço diferente para cada transação. Não há nenhuma limitação na quantidade de endereços que um usuário pode criar.
 
-Alice is now ready to start using her new bitcoin wallet.
+Agora a Alice está pronta para começar a usar a nova carteira bitcoin dela.
 
 ###Obtendo Os Seus Primeiros Bitcoins
 
