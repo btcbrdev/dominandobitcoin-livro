@@ -1,7 +1,7 @@
 #Introdução
 
 ##O que é Bitcoin?
-Bitcoin é uma coleção de conceitos e tecnologias que formam a base de um ecossistema de dinheiro digital. Unidades de moeda chamadas bitcoins são usadas para armazenar e transmitir valor entre os participantes na rede Bitcoin. Usuários Bitcoin comunicam-se entre si usando o protocolo bitcoin (geralmente através da Internet), embora outras redes de transporte também possam ser usadas. A pilha de protocolo bitcoin, disponível como software de código aberto, pode ser executada em uma ampla variedade de dispositivos com capacidade de computação, incluindo laptops e smartphones, tornando a tecnologia facilmente acessível.
+Bitcoin é um conjunto de conceitos e tecnologias que formam a base de um ecossistema de dinheiro digital. Unidades de moeda chamadas bitcoins são usadas para armazenar e transmitir valor entre os participantes na rede Bitcoin. Usuários Bitcoin comunicam-se entre si usando o protocolo bitcoin (geralmente através da Internet), embora outras redes de transporte também possam ser usadas. A pilha de protocolo bitcoin, disponível como software de código aberto, pode ser executada em uma ampla variedade de dispositivos com capacidade de computação, incluindo laptops e smartphones, tornando a tecnologia facilmente acessível.
 
 Os usuários podem transferir bitcoins através da rede para fazer praticamente qualquer coisa que pode ser feita com moedas convencionais, incluindo compra de venda de bens, envio de dinheiro a pessoas e organizações ou a extensão de crédito. Os bitcoins podem ser comprados, vendidos ou trocados por outras moedas em casas de câmbio especializadas. Bitcoin é, em suma, o dinheiro perfeitamente adequado para a Internet, pois é rápido, seguro e sem fronteiras.
 
@@ -199,6 +199,10 @@ Se a Alice tivesse trazido um smartphone ou um laptop com ela, ela seria também
 
 ### Confirmações
 
-Ao princípio, o endereço da Alice vai mostrar a transação do Joe como "Transação não Confirmada." Isto significa que a transação já se propagou pela rede mas ainda não foi incluída no registro contábil de transações do bitcoin, conhecido como a cadeia de blocos. Para ser incluído, a transação deve ser This means that the transaction has been propagated to the network but has not yet been included in the bitcoin transaction ledger, known as the blockchain. To be included, the transaction must be "picked up" by a miner and included in a block of transactions. Once a new block is created, in approximately 10 minutes, the transactions within the block will be accepted as "confirmed" by the network and can be spent. The transaction is seen by all instantly, but it is only "trusted" by all when it is included in a newly mined block.
+Ao princípio, o endereço da Alice vai mostrar a transação do Joe como "Transação não Confirmada." Isto significa que a transação já se propagou pela rede mas ainda não foi incluída no registro contábil de transações do bitcoin, conhecido como a cadeia de blocos (_blockchain_). Para ser incluída, a transação deve ser "escolhida" por um mineiro e incluída em um bloco de transações. Quando um novo bloco é criado, em aproximadamente 10 minutos, as transações dentro do bloco passam a ser aceitas como "Confirmadas" pela rede e a poder ser gastas. A transação é vista instantaneamente por todos, mas só se torna "confiada" por todos quando está incluida em um novo bloco minerado.
 
-Alice is now the proud owner of 0.10 bitcoin that she can spend. In the next chapter we will look at her first purchase with bitcoin, and examine the underlying transaction and propagation technologies in more detail.
+A Alice agora é a orgulhosa dona de 0.10 bitcoin, que ela pode gastar. No próximo capítulo iremos olhar na sua primeira compra com bitcoin e examinar as tecnologias subjacentes de transação e propagação em mais detalhes.
+
+
+
+
