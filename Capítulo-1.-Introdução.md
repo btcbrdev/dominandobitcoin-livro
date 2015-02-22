@@ -1,3 +1,6 @@
+Conteúdo original em inglês: https://github.com/aantonop/bitcoinbook/blob/develop/ch01.asciidoc
+
+
 #Introdução
 
 ##O que é Bitcoin?
