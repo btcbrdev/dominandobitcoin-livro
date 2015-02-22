@@ -1,5 +1,7 @@
 Conteúdo original em inglês: https://github.com/aantonop/bitcoinbook/blob/develop/ch01.asciidoc
 
+**Revisões**:
+- Fernando Paladini - 22/02/2015. Em Andamento.
 
 #Introdução
 
