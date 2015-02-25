@@ -19,7 +19,7 @@ Bitcoin é um sistema distribuído ponto-a-ponto (_peer-to-peer_ ou P2P). Como t
 
 --- revisado até aqui por Paladini (depois isso será removido) ---
 
-O protocolo bitcoin contêm algoritmos embutidos que regulam a função de mineração através da rede. A dificuldade da tarefa de processamento que os mineiros devem realizar - registrar com sucesso um bloco de transações na rede bitcoin - ajusta-se dinamicamente de tal forma que alguém é bem-sucedido a cada 10 minutos, na média, independentemente de quantos mineiros (e CPUs) estejam trabalhando na tarefa a qualquer momento.
+O protocolo bitcoin contêm algoritmos que regulam a função de mineração através da rede. A dificuldade da tarefa de processamento que os mineiros devem realizar - registrar com sucesso um bloco de transações na rede bitcoin - ajusta-se dinamicamente de tal forma que alguém é bem-sucedido a cada 10 minutos, na média, independentemente de quantos mineiros (e CPUs) estejam trabalhando na tarefa a qualquer momento.
 
 O protocolo também reduz à metade, a cada 4 anos, a taxa com que novos bitcoins são criados e limita o número total de bitcoins que serão criados a um máximo de 21 milhões de moedas. O resultado é que o número de bitcoins em circulação seguem uma curva previsível que alcança 21 milhões no ano de 2140. Devido à taxa decrescente de emissão, no longo prazo a moeda bitcoin é deflacionária. Ademais, bitcoin não pode ser inflacionada "imprimindo" novo dinheiro mais rápido que a taxa de emissão esperada.
 
