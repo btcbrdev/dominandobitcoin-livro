@@ -1,4 +1,4 @@
-##How Bitcoin Works
+##Como Que Funciona o Bitcoin
 
 ###Transactions, Blocks, Mining, and the Blockchain
 
