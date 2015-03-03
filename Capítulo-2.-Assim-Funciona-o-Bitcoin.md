@@ -1,10 +1,12 @@
-##Como Que Funciona o Bitcoin
+[Link ao capítulo original](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc)
 
-###Transactions, Blocks, Mining, and the Blockchain
+##Assim Funciona o Bitcoin
 
-The bitcoin system, unlike traditional banking and payment systems, is based on de-centralized trust. Instead of a central trusted authority, in bitcoin, trust is achieved as an emergent property from the interactions of different participants in the bitcoin system. In this chapter, we will examine bitcoin from a high level by tracking a single transaction through the bitcoin system and watch as it becomes "trusted" and accepted by the bitcoin mechanism of distributed consensus and is finally recorded on the blockchain, the distributed ledger of all transactions.
+###Transações, Blocos, Mineração, e a Corrente de Blocos
 
-Each example is based on an actual transaction made on the bitcoin network, simulating the interactions between the users (Joe, Alice, and Bob) by sending funds from one wallet to another. While tracking a transaction through the bitcoin network and blockchain, we will use a blockchain explorer site to visualize each step. A blockchain explorer is a web application that operates as a bitcoin search engine, in that it allows you to search for addresses, transactions, and blocks and see the relationships and flows between them.
+O sistema bitcoin, à diferença dos sistemas financeiro e de pagamentos tradicionais, se baseia na confiança descentralizada. Em vez de uma autoridade confiável central, com o bitcoin a confiança se alcança como uma propriedade que emerge das interações entre os diferentes participantes no sistema bitcoin. Neste capítulo, iremos examinar o bitcoin em alto nível, rastreando uma única transação através do sistema bitcoin e observar como ela se torna "confiável", aceita pelo mecanismo bitcoin de consenso distribuído e, finalmente, gravada na corrente de blocos, o livro contábil distribuido de todas as transações.
+
+Cada exemplo se baseia em uma transação real feita na rede bitcoin,  simulando as interações entre os usuários (Joe, Alice e Bob)  enviando fundos de uma carteira a outra.  Enquanto rastrearmos uma transação através da rede bitcoin e da corrente de blocos, iremos usar um site explorador de corrente de blocos para visualizar cada passo. Um explorador de corrente de blocos é uma aplicação web que opera como um motor de busca para o bitcoin, no sentido de que lhe permite procurar por endereços, transações e blocos e ver as relações e fluxos entre eles.
 
 Popular blockchain explorers include:  
 * [Blockchain info](http://blockchain.info/)  
