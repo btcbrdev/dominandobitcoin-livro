@@ -8,93 +8,104 @@ O sistema bitcoin, à diferença dos sistemas financeiro e de pagamentos tradici
 
 Cada exemplo se baseia em uma transação real feita na rede bitcoin,  simulando as interações entre os usuários (Joe, Alice e Bob)  enviando fundos de uma carteira a outra.  Enquanto rastrearmos uma transação através da rede bitcoin e da corrente de blocos, iremos usar um site explorador de corrente de blocos para visualizar cada passo. Um explorador de corrente de blocos é uma aplicação web que opera como um motor de busca para o bitcoin, no sentido de que lhe permite procurar por endereços, transações e blocos e ver as relações e fluxos entre eles.
 
-Popular blockchain explorers include:  
+Leitores populares da blockchain incluem:
 * [Blockchain info](http://blockchain.info/)  
 * Bitcoin Block Explorer  (http://blockexplorer.com/)  
 * insight(http://insight.bitpay.com/)  
 * blockr Block Reader(http://blockr.io/)  
 
-Each of these has a search function that can take an address, transaction hash, or block number and find the equivalent data on the bitcoin network and blockchain. With each example, we will provide a URL that takes you directly to the relevant entry, so you can study it in detail.
+Cada um destes possui uma função de busca na qual pode ser pesquisado um endereço, um hash de transação ou um número de bloco, sendo mostrado como resultado os dados equivalentes na rede bitcoin e blockchain. Em cada exemplo, nós iremos fornecer uma URL que leva você diretamente à "entry" relevante, para que você possa estudá-la em maiores detalhes.
 
-####Bitcoin Overview
 
-In the overview diagram shown in [Bitcoin overview](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#bitcoin-overview), we see that the bitcoin system consists of users with wallets containing keys, transactions that are propagated across the network, and miners who produce (through competitive computation) the consensus blockchain, which is the authoritative ledger of all transactions. In this chapter, we will trace a single transaction as it travels across the network and examine the interactions between each part of the bitcoin system, at a high level. Subsequent chapters will delve into the technology behind wallets, mining, and merchant systems.
+####Visão Geral do Bitcoin
+
+No diagrama de visão geral mostrado em [Bitcoin overview](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#bitcoin-overview), 
+
+podemos observar que o sistema de bitcoin consiste de usuários com carteiras que contém chaves, transações que são propagadas através da rede e mineradores que produzem (através de computação competitiva) o consenso da blockchain, que é um "authoritative ledger" de todas as transações. Neste capítulo, nós iremos rastrear uma transação à medida que ela é transmitida pela rede e examinaremos as interações entre cada parte do sistema bitcoin. Os capítulos subsequentes irão se aprofundar na tecnologia contida nas carteiras, mineração e sistemas de "merchant".
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0201.png)
 
-Figure 1. Bitcoin overview
+Figura 1. Visão geral do Bitcoin
 
-####Buying a Cup of Coffee
+####Comprando uma Xícara de Café
 
-Alice, introduced in the previous chapter, is a new user who has just acquired her first bitcoin. In [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin), Alice met with her friend Joe to exchange some cash for bitcoin. The transaction created by Joe funded Alice’s wallet with 0.10 BTC. Now Alice will make her first retail transaction, buying a cup of coffee at Bob’s coffee shop in Palo Alto, California. Bob’s coffee shop recently started accepting bitcoin payments, by adding a bitcoin option to his point-of-sale system. The prices at Bob’s Cafe are listed in the local currency (US dollars), but at the register, customers have the option of paying in either dollars or bitcoin. Alice places her order for a cup of coffee and Bob enters the transaction at the register. The point-of-sale system will convert the total price from US dollars to bitcoins at the prevailing market rate and display the prices in both currencies, as well as show a QR code containing a payment request for this transaction (see [Payment request QR code (Hint: Try to scan this!)](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#payment-request-QR)):
+A Alice, que foi apresentada no último capítulo, é uma nova usuária que acabou de adquirir seu primeiro bitcoin. Em [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin), 
+
+ela encontrou sua amiga Joe para trocar um pouco de dinheiro em papel por bitcoins. A transação criada pela Joe adicionou 0,10 BTC para a carteira da Alice. Agora a Alice irá fazer sua primeira transação "retail", comprando uma xícara de café na cafeteria do Bob em Palo Alto, na Califórnia. A cafeteria do Bob recentemente começou a aceitar pagamentos em bitcoins, ao adicionar uma opção de bitcoins em seu sistema de "point-of-sale". Os preços da cafeteria estão listados na moeda local (dólares americanos), mas no caixa, os clientes tem a opção de pagarem tanto em dólares quanto em bitcoins. A Alice faz seu pedido de uma xícara de café e o Bob insere a transação no seu caixa. O sistema de "point-of-sale" irá converter o preço em dólares para bitcoins usando a cotação atual do mercado e irá mostrar os preços em ambas as moedas, assim como irá exibir o código QR contendo uma solicitação de pagamento para a transação (ver [Payment request QR code (Hint: Try to scan this!)](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#payment-request-QR)):
 
 > Total:  
-> $1.50 USD  
-> 0.015 BTC  
+> $1,50 USD  
+> 0,015 BTC  
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0202.png)
 
-Figure 2. Payment request QR code (Hint: Try to scan this!)
+Figura 2. Código QR de solitação de pagamento (Dica: Tente escanear esse código!)
 
-The payment request QR code encodes the following URL, defined in BIP0021:
+O código QR de solicitação de pagamento codifica a seguinte URL, definida em  BIP0021:
 > bitcoin:1GdK9UzpHBzqzX2A9JFP3Di4weBwqgmoQA?  
 > amount=0.015&  
 > label=Bob%27s%20Cafe&  
-> message=Purchase%20at%20Bob%27s%20Cafe  
+> message=Compra%20no%20Bob%27s%20Cafe  
 >  
-> Components of the URL  
+> Componentes da URL  
 >  
-> A bitcoin address: "1GdK9UzpHBzqzX2A9JFP3Di4weBwqgmoQA"  
-> The payment amount: "0.015"  
-> A label for the recipient address: "Bob's Cafe"  
-> A description for the payment: "Purchase at Bob's Cafe"
+> Um endereço bitcoin: "1GdK9UzpHBzqzX2A9JFP3Di4weBwqgmoQA"  
+> Valor do pagamento: "0.015"  
+> Um rótulo para o endereço recipiente: "Bob's Cafe"  
+> Uma descrição para o pagemento: "Compra no Bob's Cafe"
 
 [Tip]
->Unlike a QR code that simply contains a destination bitcoin address, a payment request is a QR-encoded URL that contains a destination address, a payment amount, and a generic description such as "Bob’s Cafe." This allows a bitcoin wallet application to prefill the information used to send the payment while showing a human-readable description to the user. You can scan the QR code with a bitcoin wallet application to see what Alice would see.
+> Ao contrário de um QR code que simplesmente contém um endereço de bitcoin como destinatário, uma requisição de pagamento é uma URL codificada em um QR code que contém um endereço de pagamento, um valor de pagamento e uma descrição genérica como "Bob's Cafe". Isso permite que um aplicativo de carteira bitcoin preencha as informações uasdas para enviar o pagamento enquanto mostra uma descrição (amigável? intuitiva? "tradução para human-readable") para o usuário. Você pode escanear o código QR acima com um aplicativo de carteira bitcoin para ver o que a Alice veria.
 
-Bob says, "That’s one-dollar-fifty, or fifteen millibits."
+O Bob diz, "A conta deu 1,50 dólares, ou 15 milibits."
 
-Alice uses her smartphone to scan the barcode on display. Her smartphone shows a payment of *0.0150 BTC* to *Bob’s Cafe* and she selects *Send* to authorize the payment. Within a few seconds (about the same amount of time as a credit card authorization), Bob would see the transaction on the register, completing the transaction.
+A Alice então usa seu smartphone para escanear o código de barras mostrado na tela do Bob. Seu smartphone mostra um pagamento de  *0,0150 BTC* para o *Bob’s Cafe* e ela clica em *Enviar* para autorizar o pagamento. Dentro de alguns segundos (aproximadamente o mesmo tempo que leva uma autorização de cartão de crédito), o Bob visualizaria a transação em seu caixa, completando a transação.
 
-In the following sections we will examine this transaction in more detail, see how Alice’s wallet constructed it, how it was propagated across the network, how it was verified, and finally, how Bob can spend that amount in subsequent transactions.
+Nas próximas seções nós examinaremos essa transação em maiores detalhes, veremos como a carteira da Alice a construiu, como ela foi propagada através da rede, como ela foi verificada e, finalmente, como o Bob pode gastar a quantia recebida em transações subsequentes.
 
-Note
->The bitcoin network can transact in fractional values, e.g., from milli-bitcoins (1/1000th of a bitcoin) down to 1/100,000,000th of a bitcoin, which is known as a satoshi. Throughout this book we’ll use the term “bitcoin” to refer to any quantity of bitcoin currency, from the smallest unit (1 satoshi) to the total number (21,000,000) of all bitcoins that will ever be mined.
+Nota
+>A rede bitcoin pode fazer transações em valores fracionários, por exemplo, desde mili-bitcoins (1/1.000 de um bitcoin) até um satoshi (1/100.000.000 de um bitcoin). Ao longo deste livro nós iremos usar o termo bitcoin para se referir a qualquer quantidade na moeda bitcoin, desde a menor unidade possível (1 satoshi) até o número máximo (21.000.000) de bitcoins que podem ser minerados.
 
-###Bitcoin Transactions
+###Transações Bitcoin
 
-In simple terms, a transaction tells the network that the owner of a number of bitcoins has authorized the transfer of some of those bitcoins to another owner. The new owner can now spend these bitcoins by creating another transaction that authorizes transfer to another owner, and so on, in a chain of ownership.
+Em termos simples, uma transação informa para a rede que o dono de uma quantidade de bitcoins autorizou a transferência de alguns destes bitcoins para outro dono. O novo dono pode agora gastar esses bitcoins ao criar uma nova transação que autoriza a transferência apra um outro dono, e assim por diante, em uma cadeia de posse ("ownership") de bitcoins.
 
-Transactions are like lines in a double-entry bookkeeping ledger. In simple terms, each transaction contains one or more "inputs," which are debits against a bitcoin account. On the other side of the transaction, there are one or more "outputs," which are credits added to a bitcoin account. The inputs and outputs (debits and credits) do not necessarily add up to the same amount. Instead, outputs add up to slightly less than inputs and the difference represents an implied "transaction fee," which is a small payment collected by the miner who includes the transaction in the ledger. A bitcoin transaction is shown as a bookkeeping ledger entry in [Transaction as double-entry bookkeeping](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-double-entry).
+As transações são como linhas em um "bookkeeping ledger" de dupla entrada. Em termos simples, cada transação contém um ou mais "inputs" (entradas?), que são débitos em uma conta bitcoin. No outro lado da transação, existem um ou mais "outputs" (saídas?) que são créditos adicionados a uma conta bitcoin. Os inputs e outputs (débitos e créditos) somados não necessariamente resultam na mesma quantia. Ao invés disso, os outputs são um pouco maiores do que os inputs, e a diferença ocorre devido à "taxa de transação", que é um pequeno pagamento coletado pelo minerador que inclui a transação no ledger. Uma transação bitcoin é mostrada como uma entrada no bookkeeping ledger em [Transaction as double-entry bookkeeping](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-double-entry).
 
-The transaction also contains proof of ownership for each amount of bitcoin (inputs) whose value is transferred, in the form of a digital signature from the owner, which can be independently validated by anyone. In bitcoin terms, "spending" is signing a transaction that transfers value from a previous transaction over to a new owner identified by a bitcoin address.
+A transação também contém uma prova de posse para cada quantia de bitcoins (inputs) que é transferida, na forma de uma assinatura digital assinada pelo dono, que pode ser validade independentemente por qualquer pessoa. Usando os termos de bitcoin, "gastar" é assinar uma transação que transfere um valor a partir de uma transação prévia para um novo dono identificado através de um endereço bitcoin.
 
 Tip
->_Transactions_ move value from _transaction inputs_ to _transaction outputs_. An input is where the coin value is coming from, usually a previous transaction’s output. A transaction output assigns a new owner to the value by associating it with a key. The destination key is called an _encumbrance_. It imposes a requirement for a signature for the funds to be redeemed in future transactions. Outputs from one transaction can be used as inputs in a new transaction, thus creating a chain of ownership as the value is moved from address to address (see [A chain of transactions, where the output of one transaction is the input of the next transaction](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#blockchain-mnemonic)).
+>_Transações_ movimentam valores a partir de _inputs de transação_ para _outputs de transação_. 
+
+Um input é o lugar de onde vem o valor da moeda, geralmente um output de transação prévio. Um output de transação designa um novo dono para o valor ao associá-lo com uma nova chave. A chave de destino é chamada de _encumbrance_. Ela exige uma assinatura para a retirada dos fundos em transações futuras. Outputs de uma transação podem ser usados como inputs em uma nova transação, logo criando uma cadeia de posse à medida que o valor é movido de um endereço para outro (ver [A chain of transactions, where the output of one transaction is the input of the next transaction](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#blockchain-mnemonic)).
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0203.png)
-Figure 3. Transaction as double-entry bookkeeping
+Figura 3. Transação como double-entry bookkeeping
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0204.png)
-Figure 4. A chain of transactions, where the output of one transaction is the input of the next transaction
+Figura 4. Uma cadeia de transações, onde o output de uma transação é o input da próxima transação
 
-Alice’s payment to Bob’s Cafe uses a previous transaction as its input. In the previous chapter Alice received bitcoin from her friend Joe in return for cash. That transaction has a number of bitcoins locked (encumbered) against Alice’s key. Her new transaction to Bob’s Cafe references the previous transaction as an input and creates new outputs to pay for the cup of coffee and receive change. The transactions form a chain, where the inputs from the latest transaction correspond to outputs from previous transactions. Alice’s key provides the signature that unlocks those previous transaction outputs, thereby proving to the bitcoin network that she owns the funds. She attaches the payment for coffee to Bob’s address, thereby "encumbering" that output with the requirement that Bob produces a signature in order to spend that amount. This represents a transfer of value between Alice and Bob. This chain of transactions, from Joe to Alice to Bob, is illustrated in [A chain of transactions, where the output of one transaction is the input of the next transaction](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#blockchain-mnemonic).
+O pagamento de alice para o Bob's Cafe usa uma transação prévia como seu input. No capítulo anterior a Alice recebeu bitcoins de sua amiga em troca de dinheiro. Aquela transação tinha um número de bitcoins presos (emcumbered) à chave de Alice. Sua nova transação para o Bob's Cafe utiliza a transação prévia como um input e cria novos outputs para pagar pela xícara de café e receber o troco. As transações formam uma cadeia, onde os inputs da última transação correspondem aos outputs das transações anteriores. A chave da Alice fornece a assinatura que desbloqueia estes outputs de transações prévios, desta maneira provando à rede bitcoin que ela é dona dos fundos. Ela vincula seu pagamento pelo café ao endereço do Bob, desta maneira "emcumbering" este output com a exigência que Bob produza uma assinatura para poder gastar essa quantidade. Isso representa a transferência de valor entre Alice e Bob. Essa cadeia de transações, de Joe para Alice, e de Alice para Bob, é ilustrada em [A chain of transactions, where the output of one transaction is the input of the next transaction](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#blockchain-mnemonic).
 
-####Common Transaction Forms
+####Formas Comuns de Transação
 
-The most common form of transaction is a simple payment from one address to another, which often includes some "change" returned to the original owner. This type of transaction has one input and two outputs and is shown in [Most common transaction](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-common).
+A forma mais comum de transação é um pagamento simples de um endereço para outro, que frequentemente inclui algum "troco" que é devolvido para o dono original. Esse tipo de transação possui um input e dois outputs, e é mostrada em  [Most common transaction](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-common).
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0205.png)
-Figure 5. Most common transaction
+Figura 5. Transação mais comum
 
-Another common form of transaction is one that aggregates several inputs into a single output (see [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating)). This represents the real-world equivalent of exchanging a pile of coins and currency notes for a single larger note. Transactions like these are sometimes generated by wallet applications to clean up lots of smaller amounts that were received as change for payments.
+Outra forma comum de transação é uma que agrega múltiplos inputs em um único output (ver [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating)). 
+
+Isso representa o equivalente no mundo real à uma troca de uma pilha de moedas e notas por uma nota de valor maior. As transações deste tipo são às vezes geradas pelos aplicativos de carteira para limpar vários valores pequenos que foram recebidos como troco pelos pagamentos efetuados.
 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0206.png)
-Figure 6. Transaction aggregating funds
-Finally, another transaction form that is seen often on the bitcoin ledger is a transaction that distributes one input to multiple outputs representing multiple recipients (see [Transaction distributing funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-distributing)). This type of transaction is sometimes used by commercial entities to distribute funds, such as when processing payroll payments to multiple employees.
+Figura 6. Transação agregando fundos
+
+
+Finalmente, outra forma de transação que é frequentemente vista no ledger do bitcoin é uma transação que distribui um input para múltiplos outputs, que representam múltiplos destinatários (ver [Transaction distributing funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-distributing)). Este tipo de transação é às vezes usadas por entidades comerciais para distribuir fundos, como, por exemplo, ao processar folhas de pagamento para múltiplos empregados.
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0207.png)
-Figure 7. Transaction distributing funds
+Figura 7. Transação distribuindo fundos
 
 ###Constructing a Transaction
 
