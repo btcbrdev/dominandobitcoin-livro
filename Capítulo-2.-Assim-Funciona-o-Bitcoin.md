@@ -2,7 +2,7 @@
 
 ##Assim Funciona o Bitcoin
 
-###Transações, Blocos, Mineração, e a Corrente de Blocos
+###Transações, Blocos, Mineração e a Corrente de Blocos
 
 O sistema bitcoin, à diferença dos sistemas financeiro e de pagamentos tradicionais, se baseia na confiança descentralizada. Em vez de uma autoridade confiável central, com o bitcoin a confiança se alcança como uma propriedade que emerge das interações entre os diferentes participantes no sistema bitcoin. Neste capítulo, iremos examinar o bitcoin em alto nível, rastreando uma única transação através do sistema bitcoin e observar como ela se torna "confiável", aceita pelo mecanismo bitcoin de consenso distribuído e, finalmente, gravada na corrente de blocos, o livro contábil distribuido de todas as transações.
 
@@ -217,15 +217,13 @@ In the diagram in [Alice’s transaction included in block #277316](https://gith
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0209.png)
 Figure 9. Alice’s transaction included in block #277316
 
-###Spending the Transaction
+###Gastando a transação
 
-Now that Alice’s transaction has been embedded in the blockchain as part of a block, it is part of the distributed ledger of bitcoin and visible to all bitcoin applications. Each bitcoin client can independently verify the transaction as valid and spendable. Full-index clients can track the source of the funds from the moment the bitcoins were first generated in a block, incrementally from transaction to transaction, until they reach Bob’s address. Lightweight clients can do what is called a simplified payment verification (see [spv_nodes](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#spv_nodes)) by confirming that the transaction is in the blockchain and has several blocks mined after it, thus providing assurance that the network accepts it as valid.
+Agora que a transação da Alice foi incorporada à blockchain como parte de um bloco, ela faz parte do ledger distribuído do bitcoin e está visível para todos as aplicações bitcoin. Cada cliente bitcoin pode verificar independentemente que a transação é válida e que seus fundos podem ser gastos. Clientes de índice completo (full-index) podem rastrear a origem dos fundos desde o início, ou seja, o momento em que os bitcoins foram gerados em um bloco, e, progredindo de transação a transação, até chegarem ao endereço do Bob. Clientes leves (lightweight) podem fazer uma verificação simplificada de pagamento (ver [spv_nodes](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#spv_nodes)) ao confirmar que a transação está presente na blockchain e que vários blocos foram minerados após ela, garantindo que ela foi aceita pela rede como válida.
 
-Bob can now spend the output from this and other transactions, by creating his own transactions that reference these outputs as their inputs and assign them new ownership. For example, Bob can pay a contractor or supplier by transferring value from Alice’s coffee cup payment to these new owners. Most likely, Bob’s bitcoin software will aggregate many small payments into a larger payment, perhaps concentrating all the day’s bitcoin revenue into a single transaction. This would move the various payments into a single address, used as the store’s general "checking" account. For a diagram of an aggregating transaction, see [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating).
+O Bob agora pode gastar o output desta e de outras transações, ao criar suas próprias transações que usam esses outputs como inputs e os designam para um novo dono. Por exemplo, Bob pode pagar um fornecedor ao transferir, para este novo dono, o valor do pagamento da xícara de café da Alice. Mais provavelmente, o software de bitcoin do Bob irá agregar vários pequenos pagamentos em um pagamento maior, talvez concentrando em uma única transação todo o lucro em bitcoins obtidos na loja em um dia. Isso moveria todos os pagamentos para um endereço único, usado como uma conta de "checking" geral da loja. Para ver um diagrama de uma transação agregadora, leia [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating).
 
-As Bob spends the payments received from Alice and other customers, he extends the chain of transactions, which in turn are added to the global blockchain ledger for all to see and trust. Let’s assume that Bob pays his web designer Gopesh in Bangalore for a new website page. Now the chain of transactions will look like [Alice’s transaction as part of a transaction chain from Joe to Gopesh](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#block-alice2).
-
-Alice's transaction as part of a transaction chain
+À medida que o Bob gasta os pagamentos que recebeu de Alice e outros clientes, ele estende a cadeia de transações, que por sua vez são adicionadas ao ledger global do blockchain para que todos possam ver e confiar. Vamos assumir que o Bob paga seu web designer Gopesh em Bangalore para desenvolver um novo site. Agora a cadeia de transações irá ficar parecida como na figura [Transação da Alice fazendo parte de uma cadeia de transação do Joe para o Gopesh](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#block-alice2).
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0210.png)
-Figure 10. Alice’s transaction as part of a transaction chain from Joe to Gopesh
+Figura 10. Transação da Alice fazendo parte de uma cadeia de transação do Joep ara o Gopesh
