@@ -27,7 +27,7 @@ Figura 1. Visão geral do Bitcoin
 
 ####Comprando uma Xícara de Café
 
-A Alice, que foi apresentada no último capítulo, é uma nova usuária que acabou de adquirir seu primeiro bitcoin. Em [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin), ela encontrou sua amiga Joe para trocar um pouco de dinheiro em papel por bitcoins. A transação criada pela Joe adicionou 0,10 BTC para a carteira da Alice. Agora a Alice irá fazer sua primeira transação "retail", comprando uma xícara de café na cafeteria do Bob em Palo Alto, na Califórnia. A cafeteria do Bob, a Bob's Cafe, passou recentemente a aceitar pagamentos em bitcoins, ao adicionar uma opção de bitcoins em seu sistema de "point-of-sale". Os preços da cafeteria estão listados na moeda local (dólares americanos), mas no caixa, os clientes tem a opção de pagarem tanto em dólares quanto em bitcoins. A Alice faz seu pedido de uma xícara de café e o Bob insere a transação no seu caixa. O sistema de "point-of-sale" irá converter o preço em dólares para bitcoins usando a cotação atual do mercado e irá mostrar os preços em ambas as moedas, assim como irá exibir o código QR contendo uma solicitação de pagamento para a transação (ver [Código QR de solitação de pagamento (Dica: Tente escanear esse código!))](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#payment-request-QR)):
+A Alice, que foi apresentada no último capítulo, é uma nova usuária que acabou de adquirir seu primeiro bitcoin. Em [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin), ela encontrou sua amiga Joe para trocar um pouco de dinheiro em papel por bitcoins. A transação criada pela Joe adicionou 0,10 BTC para a carteira da Alice. Agora a Alice irá fazer sua primeira transação "retail", comprando uma xícara de café na cafeteria do Bob em Palo Alto, na Califórnia. A cafeteria do Bob, a Bob's Cafe, passou recentemente a aceitar pagamentos em bitcoins, ao adicionar uma opção de bitcoins em seu sistema de "point-of-sale". Os preços da cafeteria estão listados na moeda local (dólares americanos), mas no caixa, os clientes tem a opção de pagarem tanto em dólares quanto em bitcoins. A Alice faz seu pedido de uma xícara de café e o Bob insere a transação no seu caixa. O sistema de "point-of-sale" irá converter o preço em dólares para bitcoins usando a cotação atual do mercado e irá mostrar os preços em ambas as moedas, assim como irá exibir o código QR contendo uma solicitação de pagamento para a transação (ver [Código QR de solitação de pagamento (Dica: Tente escanear esse código!))](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#payment-request-QR):
 
 > Total:  
 > $1,50 USD  
@@ -73,7 +73,7 @@ A transação também contém uma prova de posse para cada quantia de bitcoins (
 Dica
 >_Transações_ movimentam valores a partir de _inputs de transação_ para _outputs de transação_. 
 
-Um input é o lugar de onde vem o valor da moeda, geralmente um output de transação prévio. Um output de transação designa um novo dono para o valor ao associá-lo com uma nova chave. A chave de destino é chamada de _encumbrance_. Ela exige uma assinatura para a retirada dos fundos em transações futuras. Outputs de uma transação podem ser usados como inputs em uma nova transação, logo criando uma cadeia de posse à medida que o valor é movido de um endereço para outro (ver [Uma cadeia de transações, onde o output de uma transação é o input da próxima transação](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#blockchain-mnemonic)).
+Um input é o lugar de onde vem o valor da moeda, geralmente um output de transação prévio. Um output de transação designa um novo dono para o valor ao associá-lo com uma nova chave. A chave de destino é chamada de _encumbrance_. Ela exige uma assinatura para a retirada dos fundos em transações futuras. Outputs de uma transação podem ser usados como inputs em uma nova transação, logo criando uma cadeia de posse à medida que o valor é movido de um endereço para outro (ver [Uma cadeia de transações, onde o output de uma transação é o input da próxima transação](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#blockchain-mnemonic).
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0203.png)
 Figura 3. Transação como double-entry bookkeeping
@@ -90,7 +90,7 @@ A forma mais comum de transação é um pagamento simples de um endereço para o
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0205.png)
 Figura 5. Transação mais comum
 
-Outra forma comum de transação é uma que agrega múltiplos inputs em um único output (ver [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating)). 
+Outra forma comum de transação é uma que agrega múltiplos inputs em um único output (ver [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating). 
 
 Isso representa o equivalente no mundo real à uma troca de uma pilha de moedas e notas por uma nota de valor maior. As transações deste tipo são às vezes geradas pelos aplicativos de carteira para limpar vários valores pequenos que foram recebidos como troco pelos pagamentos efetuados.
 
@@ -98,7 +98,7 @@ Isso representa o equivalente no mundo real à uma troca de uma pilha de moedas 
 Figura 6. Transação agregando fundos
 
 
-Finalmente, outra forma de transação que é frequentemente vista no ledger do bitcoin é uma transação que distribui um input para múltiplos outputs, que representam múltiplos destinatários (ver [Transaction distributing funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-distributing)). Este tipo de transação é às vezes usadas por entidades comerciais para distribuir fundos, como, por exemplo, ao processar folhas de pagamento para múltiplos empregados.
+Finalmente, outra forma de transação que é frequentemente vista no ledger do bitcoin é uma transação que distribui um input para múltiplos outputs, que representam múltiplos destinatários (ver [Transaction distributing funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-distributing). Este tipo de transação é às vezes usadas por entidades comerciais para distribuir fundos, como, por exemplo, ao processar folhas de pagamento para múltiplos empregados.
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0207.png)
 Figura 7. Transação distribuindo fundos
@@ -107,11 +107,11 @@ Figura 7. Transação distribuindo fundos
 
 O aplicativo de carteira contém toda a lógica para selecionar os inputs e outputs apropriados para construir uma transação com os dados especificados pela Alice. Ela só precisa especificar os dados de um destinatário e de uma quantia: o seu aplicativo de carteira faz todo o resto, sem que ela sequer veja os detalhes. Outro aspecto importante, é que o aplicativo de carteira também pode construir transações mesmo estando completamente offline. Da mesma maneira que você pode preencher um cheque em casa para depois depositá-lo em um envelope no banco, uma conexão com a rede bitcoin não é necessária para que uma transação seja construída e assinada. Ela apenas precisa ser enviada para a rede quando a transação for efetuada.
 
-####Getting the Right Inputs
+####Recebendo os Inputs Certos
 
-Alice’s wallet application will first have to find inputs that can pay for the amount she wants to send to Bob. Most wallet applications keep a small database of "unspent transaction outputs" that are locked (encumbered) with the wallet’s own keys. Therefore, Alice’s wallet would contain a copy of the transaction output from Joe’s transaction, which was created in exchange for cash (see [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin)). A bitcoin wallet application that runs as a full-index client actually contains a copy of every unspent output from every transaction in the blockchain. This allows a wallet to construct transaction inputs as well as quickly verify incoming transactions as having correct inputs. However, because a full-index client takes up a lot of disk space, most user wallets run "lightweight" clients that track only the user’s own unspent outputs.
+O aplicativo carteira de alice terá primeiro que achar os inputs que podem pagar pela quantia que ela quer enviar para o Bob. A maioria dos aplicativos carteira mantém um pequeno banco de dados de "outputs de transações não gastos" que são travados (encumbered) com as próprias chaves da carteira. Logo, a carteira de Alice iria conter uma cópia do output de transação da transação do Joe, que foi criada na troca pelo dinheiro (ver [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin). Um apilcativo carteira de bitcoin que roda como um cliente de índice completo na verdade contém uma cópia de cada output não gasto de todas as transações presentes na blockchain. Isso permite que a carteira construa inputs de transação, além de verificar rapidamente se as transações que chegam tem inputs corretos. No entanto, como um cliente de índice completo ocupa muito espaço de armazenamento em disco, a maioria das carteiras roda clientes "leves" que mantém somente o registro dos outputs não gastos do usuário.
 
-If the wallet application does not maintain a copy of unspent transaction outputs, it can query the bitcoin network to retrieve this information, using a variety of APIs available by different providers or by asking a full-index node using the bitcoin JSON RPC API. [Look up all the unspent outputs for Alice’s bitcoin address](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#example_2-1) shows a RESTful API request, constructed as an HTTP GET command to a specific URL. This URL will return all the unspent transaction outputs for an address, giving any application the information it needs to construct transaction inputs for spending. We use the simple command-line HTTP client cURL to retrieve the response.
+Se o aplicativo carteira não mantém uma cópia dos outputs de transação não-gastos, ele pode fazer uma requisição à rede bitcoin para solicitar essa informação, usando uma variedade de APIs disponíveis em diferentes fornecedores, ou fazer uma requisição a um nodo de índice completo usando um API de bitcoin JSON RPC. [Veja que todos os outputs não-gastos para o endereço de bitcoin de Alice](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#example_2-1) mostram uma requisição API RESTful, construído como um comando HTTP GET para uma URL específica. Essa URL irá retornar todas os outputs de transação não-gastos para um endereço, fornecendo para qualquer aplicação a informação necessária para construir inputs de transação para que os bitcoins sejam gastos. Nós usamos um simples cliente HTTP de linha de comando cURL para solicitarmos a resposta.
 
 Exemplo 1. Observe todos os outputs não gastos para o endereço de bitcoin da Alice
 
@@ -143,12 +143,12 @@ Exemplo 2. Resposta para o lookup
 
 }
 
-The response in [Response to the lookup](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#example_2-2) shows one unspent output (one that has not been redeemed yet) under the ownership of Alice’s address **1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK**. The response includes the reference to the transaction in which this unspent output is contained (the payment from Joe) and its value in satoshis, at 10 million, equivalent to 0.10 bitcoin. With this information, Alice’s wallet application can construct a transaction to transfer that value to new owner addresses.
+A resposta em [Respota ao lookup](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#example_2-2) mostra um output não-gasto (um que ainda não foi resgatado) sob a posse do endereço de Alice **1Cdid9KFAaatwczBwBttQcwXYCpvK8h7FK**. A resposta inclui uma referência à transação na qual esse valor não-gasto está contido (o pagamento do Joe) e seu valor em satoshis, 10 milhões, equivalente a 0,10 bitcoin. Com essa informação, o aplicativo carteira de Alice pode construir uma transação para transferir o valor para o endereço do novo dono.
 
 Dica
 >Veja a [transação de Joe para Alice](http://bit.ly/1tAeeGr).
 
-As you can see, Alice’s wallet contains enough bitcoins in a single unspent output to pay for the cup of coffee. Had this not been the case, Alice’s wallet application might have to "rummage" through a pile of smaller unspent outputs, like picking coins from a purse until it could find enough to pay for coffee. In both cases, there might be a need to get some change back, which we will see in the next section, as the wallet application creates the transaction outputs (payments).
+Como você pode ver, a carteira de Alice contém bitcoins suficientes em um output não-gasto isolado para pagar pela xícara de café. Caso não contivesse, o aplicativo carteira de Alice teria que "vasculhar" uma pilha de pequenos outputs não gasos, como se estivesse pegando as moedas em uma bolsa, até encontrar o sufiente para poder pagar o café. Em ambos os casos, pode haver uma necessidade de receber algum troco de volta, o que nós iremos ver na próxima seção, quando o aplicativo carteira cria os outputs da transação (pagamentos).
 
 ####Creating the Outputs
 
@@ -161,9 +161,9 @@ Finally, for the transaction to be processed by the network in a timely fashion,
 The resulting transaction can be seen using a blockchain explorer web application, as shown in [Alice’s transaction to Bob’s Cafe](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-alice).
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0208.png)
-Figure 8. Alice’s transaction to Bob’s Cafe
-Tip
->View the [transaction from Alice to Bob’s Cafe](http://bit.ly/1u0FIGs).
+Figura 8. Transação de Alice para o Bob’s Cafe
+Dica
+>Veja a [transação de Alice para o Bob’s Cafe](http://bit.ly/1u0FIGs).
 
 ####Adicionando uma Transação ao Ledger
 
@@ -177,9 +177,9 @@ Como a transação contém toda a informação necessária para que seja process
 
 O aplicativo carteira da Alice pode enviar a nova transação para qualquer um dos outros clientes bitcoins se ele estiver conectado através de uma conexão de Internet: por cabo, WiFi ou móvel. A sua carteira não tem que obrigatoriamente estar conectada diretamente à carteira do Bob ou usar a conexão de internet oferecida pela cafeteria, embora essas opções também sejam possíveis. Qualquer nodo (outro cliente) na rede bitcoin que recber uma transação válida que não tenha sido vista anteriormente irá imediatamente propagá-la para outros nodos com os quais está ligado. Logo, a transação rapidamente é propagada através da rede ponto-a-ponto (P2P), atingindo uma grande percentagem dos nodos dentro de poucos segundos.
 
-#####Bob’s view
+#####Visão do Bob
 
-If Bob’s bitcoin wallet application is directly connected to Alice’s wallet application, Bob’s wallet application might be the first node to receive the transaction. However, even if Alice’s wallet sends the transaction through other nodes, it will reach Bob’s wallet within a few seconds. Bob’s wallet will immediately identify Alice’s transaction as an incoming payment because it contains outputs redeemable by Bob’s keys. Bob’s wallet application can also independently verify that the transaction is well formed, uses previously unspent inputs, and contains sufficient transaction fees to be included in the next block. At this point Bob can assume, with little risk, that the transaction will shortly be included in a block and confirmed.
+Se o aplicativo carteira do bob estiver diretamente conectado ao aplicativo carteira da Alice, o aplicativo pode ser o primeiro nodo a receber a transação. Entretanto, mesmo que a carteira de Alice envia a tranação através de outros nodos, a transação chegará à carteira do Bob dentro de pouco segundos. A carteira de Bob irá identificar imediatamente a transação de Alice como um pagamento porque ela contém outputs que são resgatáveis pelas chaves do Bob. O aplicativo carteira de Bob também pode verificar independentemente que a transação é bem formada, utiliza inputs previamente não-gastos e contém taxas de transação suficientes para ser incluída no próximo bloco. Neste momento o Bob pode esperar, com um alto grau de probabilidade, que a transação será em breve incluída em um bloco e será confirmada.
 
 Dica
 >Uma ideia erroneamente difundida é a de que as transações bitcoin, para serem "comprovadas", exigem uma espera de 10 minutos por um novo bloco, ou de até 60 minutos por seis confirmações. Embora essas confirmações sejam uma garantia de que a transação foi aceita por toda a rede, a espera por elas é desnecessária para ítens de pequeno valor, como uma xícara de café. Ao aceitar uma transação de pequeno valor como comprovadamente válida, o comerciante estará correndo um risco menor do que quando recebe um pagamento de cartão de crédito feito sem assinatura ou carteira de identidade.
