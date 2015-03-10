@@ -19,9 +19,7 @@ Cada um destes possui uma função de busca na qual pode ser pesquisado um ender
 
 ####Visão Geral do Bitcoin
 
-No diagrama de visão geral mostrado em [Bitcoin overview](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#bitcoin-overview), 
-
-podemos observar que o sistema de bitcoin consiste de usuários com carteiras que contém chaves, transações que são propagadas através da rede e mineradores que produzem (através de computação competitiva) o consenso da blockchain, que é um "authoritative ledger" de todas as transações. Neste capítulo, nós iremos rastrear uma transação à medida que ela é transmitida pela rede e examinaremos as interações entre cada parte do sistema bitcoin. Os capítulos subsequentes irão se aprofundar na tecnologia contida nas carteiras, mineração e sistemas de "merchant".
+No diagrama de visão geral mostrado em [Bitcoin overview](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#bitcoin-overview), podemos observar que o sistema de bitcoin consiste de usuários com carteiras que contém chaves, transações que são propagadas através da rede e mineradores que produzem (através de computação competitiva) o consenso da blockchain, que é um "authoritative ledger" de todas as transações. Neste capítulo, nós iremos rastrear uma transação à medida que ela é transmitida pela rede e examinaremos as interações entre cada parte do sistema bitcoin. Os capítulos subsequentes irão se aprofundar na tecnologia contida nas carteiras, mineração e sistemas de "merchant".
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0201.png)
 
@@ -29,9 +27,7 @@ Figura 1. Visão geral do Bitcoin
 
 ####Comprando uma Xícara de Café
 
-A Alice, que foi apresentada no último capítulo, é uma nova usuária que acabou de adquirir seu primeiro bitcoin. Em [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin), 
-
-ela encontrou sua amiga Joe para trocar um pouco de dinheiro em papel por bitcoins. A transação criada pela Joe adicionou 0,10 BTC para a carteira da Alice. Agora a Alice irá fazer sua primeira transação "retail", comprando uma xícara de café na cafeteria do Bob em Palo Alto, na Califórnia. A cafeteria do Bob recentemente começou a aceitar pagamentos em bitcoins, ao adicionar uma opção de bitcoins em seu sistema de "point-of-sale". Os preços da cafeteria estão listados na moeda local (dólares americanos), mas no caixa, os clientes tem a opção de pagarem tanto em dólares quanto em bitcoins. A Alice faz seu pedido de uma xícara de café e o Bob insere a transação no seu caixa. O sistema de "point-of-sale" irá converter o preço em dólares para bitcoins usando a cotação atual do mercado e irá mostrar os preços em ambas as moedas, assim como irá exibir o código QR contendo uma solicitação de pagamento para a transação (ver [Payment request QR code (Hint: Try to scan this!)](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#payment-request-QR)):
+A Alice, que foi apresentada no último capítulo, é uma nova usuária que acabou de adquirir seu primeiro bitcoin. Em [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin), ela encontrou sua amiga Joe para trocar um pouco de dinheiro em papel por bitcoins. A transação criada pela Joe adicionou 0,10 BTC para a carteira da Alice. Agora a Alice irá fazer sua primeira transação "retail", comprando uma xícara de café na cafeteria do Bob em Palo Alto, na Califórnia. A cafeteria do Bob, a Bob's Cafe, passou recentemente a aceitar pagamentos em bitcoins, ao adicionar uma opção de bitcoins em seu sistema de "point-of-sale". Os preços da cafeteria estão listados na moeda local (dólares americanos), mas no caixa, os clientes tem a opção de pagarem tanto em dólares quanto em bitcoins. A Alice faz seu pedido de uma xícara de café e o Bob insere a transação no seu caixa. O sistema de "point-of-sale" irá converter o preço em dólares para bitcoins usando a cotação atual do mercado e irá mostrar os preços em ambas as moedas, assim como irá exibir o código QR contendo uma solicitação de pagamento para a transação (ver [Payment request QR code (Hint: Try to scan this!)](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#payment-request-QR)):
 
 > Total:  
 > $1,50 USD  
@@ -49,12 +45,12 @@ O código QR de solicitação de pagamento codifica a seguinte URL, definida em 
 >  
 > Componentes da URL  
 >  
-> Um endereço bitcoin: "1GdK9UzpHBzqzX2A9JFP3Di4weBwqgmoQA"  
-> Valor do pagamento: "0.015"  
-> Um rótulo para o endereço recipiente: "Bob's Cafe"  
-> Uma descrição para o pagemento: "Compra no Bob's Cafe"
+> Um endereço bitcoin (bitcoin): "1GdK9UzpHBzqzX2A9JFP3Di4weBwqgmoQA"  
+> Valor do pagamento (amount): "0.015"  
+> Um rótulo para o endereço do destinatário (label): "Bob's Cafe"  
+> Uma descrição para o pagamento (message): "Compra no Bob's Cafe"
 
-[Tip]
+[Dica]
 > Ao contrário de um QR code que simplesmente contém um endereço de bitcoin como destinatário, uma requisição de pagamento é uma URL codificada em um QR code que contém um endereço de pagamento, um valor de pagamento e uma descrição genérica como "Bob's Cafe". Isso permite que um aplicativo de carteira bitcoin preencha as informações uasdas para enviar o pagamento enquanto mostra uma descrição (amigável? intuitiva? "tradução para human-readable") para o usuário. Você pode escanear o código QR acima com um aplicativo de carteira bitcoin para ver o que a Alice veria.
 
 O Bob diz, "A conta deu 1,50 dólares, ou 15 milibits."
@@ -74,7 +70,7 @@ As transações são como linhas em um "bookkeeping ledger" de dupla entrada. Em
 
 A transação também contém uma prova de posse para cada quantia de bitcoins (inputs) que é transferida, na forma de uma assinatura digital assinada pelo dono, que pode ser validade independentemente por qualquer pessoa. Usando os termos de bitcoin, "gastar" é assinar uma transação que transfere um valor a partir de uma transação prévia para um novo dono identificado através de um endereço bitcoin.
 
-Tip
+Dica
 >_Transações_ movimentam valores a partir de _inputs de transação_ para _outputs de transação_. 
 
 Um input é o lugar de onde vem o valor da moeda, geralmente um output de transação prévio. Um output de transação designa um novo dono para o valor ao associá-lo com uma nova chave. A chave de destino é chamada de _encumbrance_. Ela exige uma assinatura para a retirada dos fundos em transações futuras. Outputs de uma transação podem ser usados como inputs em uma nova transação, logo criando uma cadeia de posse à medida que o valor é movido de um endereço para outro (ver [A chain of transactions, where the output of one transaction is the input of the next transaction](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#blockchain-mnemonic)).
