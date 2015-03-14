@@ -9,12 +9,14 @@ Esse glossário serve para padronizar a tradução em todos os capítulos do liv
 * bitcoin ou Bitcon: Quando usar maiúsculo ou minúsculo?
 * Blockchain: Cadeia de blocos (blockchain)
 * Emcumbering: "Criar um desafio"?
+* Input: Input (não traduzir)
 * Ledger: ??
 * Key: Chave
  * Private key: Chave privada
  * Public key: Chave pública
 * Nodes: nodos
  * Full nodes: Nodos completos?
+* Output: Output (não traduzir)
 * Peer-to-peer (P2P): Ponto-a-ponto (P2P)
 * QR code: Código QR
 * Wallet application: Aplicativo carteira
