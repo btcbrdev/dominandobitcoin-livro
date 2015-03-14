@@ -51,15 +51,15 @@ Mostra texto que deveria ser substituído por valores fornecidos pelo usuário, 
 
 > Esse ícone indica uma mensagem de aviso ou cuidado.
 
-## Code Examples
+## Exemplos de códigos
 
-The examples are illustrated in Python, C++, and using the command line of a Unix-like operating system such as Linux or Mac OS X. All code snippets are available in the GitHub repository in the code subdirectory of the main repo. Fork the book code, try the code examples, or submit corrections via GitHub.
+Os exemplos são ilustrados em Python, C++ e usando uma linha de comando de um sistema operacional do tipo Unix, como Linux, ou Mac OS X. Todos os snippets de códigos estão disponíveis no repositório GitHub no subdiretório code do repositório principal. Você pode fazer um fork do código do livro, testar exemplos de códigos ou enviar correções via GitHub.
 
-All the code snippets can be replicated on most operating systems with a minimal installation of compilers and interpreters for the corresponding languages. Where necessary, we provide basic installation instructions and step-by-step examples of the output of those instructions.
+Todos os snippets de códigos podem ser replicados na maioria dos sistemas operacionais com uma instalação mínima dos compiladores e interpretadores das linguagens correspondentes. Quando necessário, nós providenciaremos as instruções básicas da instalação e exemplos passo-a-passo do output dessas instruções.
 
-Some of the code snippets and code output have been reformatted for print. In all such cases, the lines have been split by a backslash (\) character, followed by a newline character. When transcribing the examples, remove those two characters and join the lines again and you should see identical results as shown in the example.
+Alguns dos snippets de códigos e do output do código foram reformatados para a impressão. Em todos esses casos, as linhas foram divididas por uma barra invertida (\), seguida por um caractere de nova linha. Ao transcrever os exemplos, remova estes dois caracteres e una as linhas novamente, obtendo resultados idênticos aos mostrados no exemplo.
 
-All the code snippets use real values and calculations where possible, so that you can build from example to example and see the same results in any code you write to calculate the same values. For example, the private keys and corresponding public keys and addresses are all real. The sample transactions, blocks, and blockchain references have all been introduced in the actual bitcoin blockchain and are part of the public ledger, so you can review them on any bitcoin system.
+Todos os snippets de códigos usam valores e cálculos reais quando possível, de maneira que você possa construir de exemplo a exemplo e observar os mesmo resultados em qualquer código que você escrever para calcular os mesmos valores. Por exemplo, as chaves privadas e seus endereços e chaves públicas correspondentes são reais. As amostras de transação, blocos e referências à blockchain foram realmente introduzidas na  blockchain do bitcoin e fazem parte do ledger público, para que você possa revisá-las em qualquer sistema bitcoin.
 
 ## Using Code Examples
 
