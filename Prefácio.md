@@ -8,9 +8,9 @@ Dois anos depois, depois de criar várias pequenas startups para explorar servi�
 
 Esse livro foi escrito principalmente para programadores. Se você sabe alguma linguagem de programação, esse livro irá ensiná-lo como as moedas criptográficas funcionam, como utilizá-las e como desenvolver softwares que trabalhem com elas. Os primeiros capítulos também são adequados como uma introdução aprofundada ao bitcoin para não-programadores, que queiram entender o funcionamento interno do bitcoin e das criptomoedas.
 
-## Por que a capa do livro tem insetos?
+## Por Que a Capa do Livro Tem Insetos?
 
-A formiga leafcutter é uma espécie que possui um comportamente altamente complexo em um super-organismo de colônia, mas cada formiga individualmente opera sob um conjunto de regras simples dirigidas por interação social e pela troca de aromas químicos (feromônios). De acordo com a Wikipedia: "Depois dos humanos, as formigas leafcutter formam as maiores e maix complexas sociedades animais do planeta Terra". As formigas leafcutter de fato não comem as folhas, mas as utilizam para cultivar um fungo, que é a fonte central de comida da colônia. Você compreendeu isso? Essas formigas estão fazendo agricultura!
+A formiga cortadeira é uma espécie que possui um comportamente altamente complexo em um super-organismo de colônia, mas cada formiga individualmente opera sob um conjunto de regras simples dirigidas por interação social e pela troca de aromas químicos (feromônios). De acordo com a Wikipedia: "Depois dos humanos, as formigas cortadeiras formam as maiores e maix complexas sociedades animais do planeta Terra". Na verdade, as formigas cortadeiras não comem as folhas, mas as utilizam para cultivar um fungo, que é a fonte central de comida da colônia. Você compreendeu isso? Essas formigas estão fazendo agricultura!
 
 Embora as formigas formem uma sociedade baseada em castas e possuam uma rainha para produzir a prole, não há uma autoridade central ou um líder na colônia de formigas. O comportamento altamente inteligente e sofisticado exibido pela colônia composta por milhões de membros é uma propriedade que surge a partir da interação dos indivíduos em uma rede social.
 
