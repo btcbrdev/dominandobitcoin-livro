@@ -7,7 +7,7 @@ Esse glossário serve para padronizar a tradução em todos os capítulos do liv
 
 * Address: Endereço
 * bitcoin ou Bitcon: Quando usar maiúsculo ou minúsculo?
-* Blockchain: Cadeia de blocos (blockchain)
+* blockchain: blockchain (corrente de blocos)
 * Emcumbering: "Criar um desafio"?
 * Input: Input (não traduzir)
 * Ledger: ??
