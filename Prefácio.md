@@ -57,19 +57,20 @@ Os exemplos são ilustrados em Python, C++ e usando uma linha de comando de um s
 
 Todos os snippets de códigos podem ser replicados na maioria dos sistemas operacionais com uma instalação mínima dos compiladores e interpretadores das linguagens correspondentes. Quando necessário, nós providenciaremos as instruções básicas da instalação e exemplos passo-a-passo do output dessas instruções.
 
-Alguns dos snippets de códigos e do output do código foram reformatados para a impressão. Em todos esses casos, as linhas foram divididas por uma barra invertida (\), seguida por um caractere de nova linha. Ao transcrever os exemplos, remova estes dois caracteres e una as linhas novamente, obtendo resultados idênticos aos mostrados no exemplo.
+Alguns dos snippets de códigos e do output do código foram reformatados para a impressão. Em todos esses casos, as linhas foram divididas por uma barra invertida ( \ ), seguida por um caractere de nova linha. Ao transcrever os exemplos, remova estes dois caracteres e una as linhas novamente, obtendo resultados idênticos aos mostrados no exemplo.
 
 Todos os snippets de códigos usam valores e cálculos reais quando possível, de maneira que você possa construir de exemplo a exemplo e observar os mesmo resultados em qualquer código que você escrever para calcular os mesmos valores. Por exemplo, as chaves privadas e seus endereços e chaves públicas correspondentes são reais. As amostras de transação, blocos e referências à blockchain foram realmente introduzidas na  blockchain do bitcoin e fazem parte do ledger público, para que você possa revisá-las em qualquer sistema bitcoin.
 
-## Using Code Examples
+## Usando Exemplos de Códigos
 
-This book is here to help you get your job done. In general, if example code is offered with this book, you may use it in your programs and documentation. You do not need to contact us for permission unless you’re reproducing a significant portion of the code. For example, writing a program that uses several chunks of code from this book does not require permission. Selling or distributing a CD-ROM of examples from O’Reilly books does require permission. Answering a question by citing this book and quoting example code does not require permission. Incorporating a significant amount of example code from this book into your product’s documentation does require permission.
+Esse livro foi feito para ajudá-lo a fazer seu trabalho. Em geral, se um exemplo de código é oferecido com esse livro, você pode utilizá-lo em seus programas e documentação. Você não precisa entrar em contato conosco para pedir permissão, a menor que você esteja reproduzindo uma porção significativa do código. Por exemplo, você não precisa pedir permissão para escrever um programa que utiliza vários pedaços de código deste livro. No entanto, você precisa de permissão para vender ou distribuir um CD-ROM de exemplos dos livros O’Reilly. Para responder uma questão citando esse livro e citando um exemplo de código, você não precisa de permissão. Para incorporar uma porção significativa de exemplos de códigos deste livro na documentação do seu produto, você precisa de permissão.
 
-We appreciate, but do not require, attribution. An attribution usually includes the title, author, publisher, and ISBN. For example: “Mastering Bitcoin by Andreas M. Antonopoulos (O’Reilly). Copyright 2015 Andreas M. Antonopoulos, 978-1-449-37404-4.”
+Nós apreciamos, mas não exigimos, atribuição de créditos.  Uma atribuição geralmente inclui o título, autor, editor e ISBN. Por exemplo: “Mastering Bitcoin por Andreas M. Antonopoulos (O’Reilly). Copyright 2015 Andreas M. Antonopoulos, 978-1-449-37404-4.”
 
-Some editions of this book are offered under an open source license, such as CC-BY-NC (creativecommons.org), in which case the terms of that license apply.
 
-If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at <permissions@oreilly.com>.
+Algumas edições deste livro são oferecidas sob uma licença open source, como CC-BY-NC (creativecommons.org), neste caso, sendo aplicados os termos deste licença específica.
+
+Se você acredita que o seu uso dos exemplos de código não se encaixam na categoria de fair use ou nas permissões citadas acima, sinta-se livre para entrar em contato conosco em  <permissions@oreilly.com>.
 
 ## Safari® Books Online
 
