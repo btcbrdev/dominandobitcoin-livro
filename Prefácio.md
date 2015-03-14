@@ -8,26 +8,26 @@ Two years later, after creating a number of small startups to explore various bi
 
 Esse livro foi escrito principalmente para programadores. Se você sabe alguma linguagem de programação, esse livro irá ensiná-lo como as moedas criptográficas funcionam, como utilizá-las e como desenvolver softwares que trabalhem com elas. Os primeiros capítulos também são adequados como uma introdução aprofundada ao bitcoin para não-programadores, que queiram entender o funcionamento interno do bitcoin e das criptomoedas.
 
-## Why Are There Bugs on the Cover?
+## Por que a capa do livro tem insetos?
 
-The leafcutter ant is a species that exhibits highly complex behavior in a colony super-organism, but each individual ant operates on a set of simple rules driven by social interaction and the exchange of chemical scents (pheromones). Per Wikipedia: "Next to humans, leafcutter ants form the largest and most complex animal societies on Earth." Leafcutter ants don’t actually eat leaves, but rather use them to farm a fungus, which is the central food source for the colony. Get that? These ants are farming!
+A formiga leafcutter é uma espécie que possui um comportamente altamente complexo em um super-organismo de colônia, mas cada formiga individualmente opera sob um conjunto de regras simples dirigidas por interação social e pela troca de aromas químicos (feromônios). De acordo com a Wikipedia: "Depois dos humanos, as formigas leafcutter formam as maiores e maix complexas sociedades animais do planeta Terra". As formigas leafcutter de fato não comem as folhas, mas as utilizam para cultivar um fungo, que é a fonte central de comida da colônia. Você compreendeu isso? Essas formigas estão fazendo agricultura!
 
-Although ants form a caste-based society and have a queen for producing offspring, there is no central authority or leader in an ant colony. The highly intelligent and sophisticated behavior exhibited by a multimillion-member colony is an emergent property from the interaction of the individuals in a social network.
+Embora as formigas formem uma sociedade baseada em castas e possuam uma rainha para produzir a prole, não há uma autoridade central ou um líder na colônia de formigas. O comportamento altamente inteligente e sofisticado exibido pela colônia composta por milhões de membros é uma propriedade que surge a partir da interação dos indivíduos em uma rede social.
 
-Nature demonstrates that decentralized systems can be resilient and can produce emergent complexity and incredible sophistication without the need for a central authority, hierarchy, or complex parts.
+A natureza demonstra que sistemas descentralizados podem ser versáteis e podem uma complexidade que evolui, além de uma sofisticação incrível, tudo isso sem a necessidade de uma autordade central, hierarquia ou partes complexas.
 
-Bitcoin is a highly sophisticated decentralized trust network that can support a myriad of financial processes. Yet, each node in the bitcoin network follows a few simple mathematical rules. The interaction between many nodes is what leads to the emergence of the sophisticated behavior, not any inherent complexity or trust in any single node. Like an ant colony, the bitcoin network is a resilient network of simple nodes following simple rules that together can do amazing things without any central coordination.
+O Bitcoin é uma rede de confiança descentralizada altamente sofisticada que pode suportar uma grande diversidade de processos financeiros, No entanto, cada nodo na rede bitcoin segue algums poucas regras matemáticas simples. A interação entre os múltiplos nodos, e não uma complexidade inerente ou confiança em um nodo único, é o que leva à emergência de um comportamento sofisticado. Como uma colônia de formigas, a rede bitcoin é uma rede versátil de nodos simples, seguindo regras simples, que juntos podem fazer coisas incríveis, sem depender de uma coordenação central.
 
-## Conventions Used in This Book
+## Convenções Usadas Neste Livro
 
-The following typographical conventions are used in this book:
+As seguintes convenções tipográficas são usadas neste livro:
 
 <dl>
 <dt>
-<em>Italic</em>
+<em>Itálico</em>
 </dt>
 <dd>
-Indicates new terms, URLs, email addresses, filenames, and file extensions.
+Indica novos termos, URLs, endereços de e-mail, nomes e extensões de arquivos.
 </dd>
 <dt>
 Constant width
@@ -47,9 +47,9 @@ Shows text that should be replaced with user-supplied values or by values determ
 </dd>
 </dl>
 
-> This icon signifies a tip, suggestion, or general note.
+> Esse ícone é usado em divas, sugestões ou notas em geral.
 
-> This icon indicates a warning or caution.
+> Esse ícone indica uma mensagem de aviso ou cuidado.
 
 ## Code Examples
 
