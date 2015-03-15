@@ -10,7 +10,7 @@ Esse glossário serve para padronizar a tradução em todos os capítulos do liv
 * blockchain: blockchain (corrente de blocos)
 * Emcumbering: "Criar um desafio"?
 * Input: Input (não traduzir)
-* Ledger: ??
+* Ledger: Registro, registro contábil? (alguma tradução melhor?)
 * Key: Chave
  * Private key: Chave privada
  * Public key: Chave pública
