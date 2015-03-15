@@ -74,8 +74,8 @@ Se você acredita que o seu uso dos exemplos de código não se encaixam na cate
 
 ## Safari® Books Online
 
-> Safari Books Online is an on-demand digital library that delivers expert content in both book and video form from the world’s leading authors in technology and business.
+> Safari Books Online é uma biblioteca digital sob demanda que fornece conteúdo especializado tanto em livro quando em vídeo dos principais autores em tecnologia e negócios.
 
-Technology professionals, software developers, web designers, and business and creative professionals use Safari Books Online as their primary resource for research, problem solving, learning, and certification training.
+Profissionais de tecnologia, desenvolvedores de software, web designers e profissionais de negócios e áreas de criação usam o Safari Books Online como sua fonte primária de pesquisa, solução de problemas, aprendizado e treinamento certificado.
 
-Safari Books Online offers a range of product mixes and pricing programs for organizations, government agencies, and individuals. Subscribers have access to thousands of books, training videos, and prepublication manuscripts in one fully searchable database from publishers like O’Reilly Media, Prentice Hall Professional, Addison-Wesley Professional, Microsoft Press, Sams, Que, Peachpit Press, Focal Press, Cisco Press, John Wiley & Sons, Syngress, Morgan Kaufmann, IBM Redbooks, Packt, Adobe Press, FT Press, Apress, Manning, New Riders, McGraw-Hill, Jones & Bartlett, Course Technology, and dozens more. For more information about Safari Books Online, please visit us online.
+A Safari Books Online oferece uma variedade de produtos e condições de pagamento para organizações, agências do governo e pessoas físicas. Os assinantes tem acesso a milhares de livros, vídeos de treinamento e manuscritos liberados antes da publicação em um banco de dados pesquisável, que inclui editoras como O’Reilly Media, Prentice Hall Professional, Addison-Wesley Professional, Microsoft Press, Sams, Que, Peachpit Press, Focal Press, Cisco Press, John Wiley & Sons, Syngress, Morgan Kaufmann, IBM Redbooks, Packt, Adobe Press, FT Press, Apress, Manning, New Riders, McGraw-Hill, Jones & Bartlett, Course Technology e muitas outras. Para maiores informações sobre a Safari Books Online, visite-nos online.
