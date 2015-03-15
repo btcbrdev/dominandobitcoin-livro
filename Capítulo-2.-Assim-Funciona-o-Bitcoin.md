@@ -85,12 +85,12 @@ O pagamento de Alice para o Bob's Cafe usa uma transação prévia como seu inpu
 
 ####Formas Comuns de Transação
 
-A forma mais comum de transação é um pagamento simples de um endereço para outro, que frequentemente inclui algum "troco" que é devolvido para o dono original. Esse tipo de transação possui um input e dois outputs, e é mostrada em  [Transação mais comum](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-common).
+A forma mais comum de transação é um pagamento simples de um endereço para outro, que frequentemente inclui algum "troco" que é devolvido para o dono original. Esse tipo de transação possui um input e dois outputs, e é mostrada em [Transação mais comum](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-common).
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0205.png)
 Figura 5. A forma mais comum de transação
 
-Outra forma comum de transação é uma que agrega múltiplos inputs em um único output (ver [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating). 
+Outra forma comum de transação é uma que agrega múltiplos inputs em um único output (ver [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating)). 
 
 Isso representa o equivalente no mundo real à uma troca de uma pilha de moedas e notas por uma nota de valor maior. As transações deste tipo são às vezes geradas pelos aplicativos de carteira para limpar vários valores pequenos que foram recebidos como troco pelos pagamentos efetuados.
 
@@ -171,7 +171,7 @@ A transação criada pelo aplicativo de carteira da Alice tem 258 bytes de compr
 
 #####Transmitindo a transação
 
-Como a transação contém toda a informação necessária para que seja processada, não importa como ou onde ela é transmitida para a rede bitcoin. A rede bitcoin é uma rede ponto-a-ponto (P2P0, com cada cliente bitcoin participando ao se conectar a múltiplos outros clientes bitcoins. A proposta da rede bitconi é propagar as transações e os blocos para todos os participantes.
+Como a transação contém toda a informação necessária para que seja processada, não importa como ou onde ela é transmitida para a rede bitcoin. A rede bitcoin é uma rede ponto-a-ponto (P2P), com cada cliente bitcoin participando ao se conectar a múltiplos outros clientes bitcoins. A proposta da rede bitconi é propagar as transações e os blocos para todos os participantes.
 
 #####Como ela se propaga
 
