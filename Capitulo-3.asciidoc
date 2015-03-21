@@ -1,3 +1,5 @@
+Link ao capítulo original: https://github.com/aantonop/bitcoinbook/blob/develop/ch03.asciidoc
+
 [[ch03_bitcoin_client]]
 == The Bitcoin Client
 
