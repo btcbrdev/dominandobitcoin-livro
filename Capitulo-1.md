@@ -148,6 +148,7 @@ A Alice pode também imprimir o código QR para entregar facilmente seu endereç
 
 Agora a Alice está pronta para começar a usar sua nova carteira bitcoin.
 
+[getting_first_bitcoin]
 ###Obtendo Os Seus Primeiros Bitcoins
 
 Ainda não é possível comprar os bitcoins em um banco ou casa de câmbio de moedas estrangeiras. Em 2014, ainda era difícil adquirir bitcoins na maior parte dos países. Há algumas casas de câmbio especializadas onde você pode comprar e vender bitcoin pagando com a sua moeda local. Estas operam como os mercados de moedas online e delas fazem parte:
