@@ -8,6 +8,8 @@
 - traduzi encumbrance como ônus baseado nisto: https://technet.microsoft.com/pt-br/library/hh209307.aspx
 - traduzi "double-entry bookkeeping" como "registro contábil de partida dobrada" com base em http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1519-70772014000500321&lng=en&nrm=iso&tlng=pt
 - Dizemos a Alice e o Joe, ou simplesmente Alice e Joe?
+- Deveríamos dizer entradas & saídas ou inputs & outputs? Não modifiquei...
+- No exemplo 2-1 para mim tive que adicionar o parâmetro -k para o curl funcionar
 - parei na linha 96 (21/03/2015)
 
 ##Assim Funciona o Bitcoin
@@ -98,7 +100,7 @@ O pagamento da Alice para o Bob's Cafe usa uma transação prévia como seu inpu
 A forma mais comum de transação é um pagamento simples de um endereço para outro, que frequentemente inclui algum "troco" que é devolvido para o dono original. Esse tipo de transação possui um input e dois outputs, e é mostrada em [Transação mais comum](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-common).
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0205.png)
-Figura 5. A forma mais comum de transação
+Figura 2-5. A forma mais comum de transação
 
 Outra forma comum de transação é uma que agrega múltiplos inputs em um único output (ver [Transaction aggregating funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-aggregating)). 
 
@@ -107,22 +109,22 @@ Isso representa o equivalente no mundo real à uma troca de uma pilha de moedas 
 ![](https://github.com/aantonop/bitcoinbook/blob/develop/images/msbt_0206.png)
 Figura 6. Transação agregando fundos
 
-Finalmente, outra forma de transação frequentemente vista no ledger do bitcoin é uma transação que distribui um input para múltiplos outputs, que representam múltiplos destinatários (ver [Transaction distributing funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-distributing). Este tipo de transação é às vezes usadas por entidades comerciais para distribuir fundos, como, por exemplo, ao processar folhas de pagamento para múltiplos empregados.
+Finalmente, outra forma de transação frequentemente vista no registro contábil do bitcoin é uma transação que distribui um input para múltiplos outputs, que representam múltiplos destinatários (ver [Transaction distributing funds](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#transaction-distributing). Este tipo de transação é às vezes usada por entidades comerciais para distribuir fundos, como, por exemplo, ao processar folhas de pagamento para múltiplos empregados.
 
 ![](https://github.com/aantonop/bitcoinbook/raw/develop/images/msbt_0207.png)
 Figura 7. Transação distribuindo fundos
 
 ###Construindo uma Transação
 
-O aplicativo de carteira contém toda a lógica para selecionar os inputs e outputs apropriados para construir uma transação com os dados especificados pela Alice. Ela só precisa fornecer os dados de um destinatário e de uma quantia: o seu aplicativo de carteira faz todo o resto, sem que ela sequer veja os detalhes. Outro aspecto importante, é que o aplicativo de carteira também pode construir transações mesmo estando completamente offline. Da mesma maneira que você pode preencher um cheque em casa para depois depositá-lo em um envelope no banco, uma conexão com a rede bitcoin não é necessária para que uma transação seja construída e assinada. A transação só precisa ser enviada para a rede quando a pessoa quiser efetuá-la.
+O aplicativo de carteira contém toda a lógica para selecionar os inputs e outputs apropriados para construir uma transação com os dados especificados pela Alice. Ela só precisa fornecer os dados de destino e uma quantia: o seu aplicativo de carteira faz todo o resto, sem que ela sequer veja os detalhes. Outro aspecto importante, é que o aplicativo de carteira também pode construir transações mesmo estando completamente offline. Da mesma maneira que você pode preencher um cheque em casa para depois depositá-lo em um envelope no banco, uma conexão com a rede bitcoin não é necessária para que uma transação seja construída e assinada. A transação só precisa ser enviada para a rede quando a pessoa quiser efetuá-la.
 
 ####Recebendo os Inputs Certos
 
-O aplicativo carteira de Alice terá primeiro que achar os inputs que podem pagar pela quantia que ela quer enviar para o Bob. A maioria dos aplicativos carteira mantém um pequeno banco de dados de "outputs de transações não gastos" que são trancados (protegidos por um desafio) com as próprias chaves da carteira. Logo, a carteira de Alice iria conter uma cópia do output de transação da transação do Joe, que foi criada na troca pelo dinheiro (ver [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin). Um apilcativo carteira de bitcoin que roda como um cliente de índice completo na verdade contém uma cópia de cada output não gasto de todas as transações presentes na blockchain. Isso permite que a carteira construa inputs de transação, além de verificar rapidamente se as transações que chegam tem inputs corretos. No entanto, como um cliente de índice completo ocupa muito espaço de armazenamento em disco, a maioria das carteiras roda clientes "leves" que mantém somente o registro dos outputs não gastos do usuário.
+O aplicativo de carteira da Alice terá primeiro que achar os inputs que podem pagar pela quantia que ela quer enviar para o Bob. A maioria dos aplicativos de carteira mantém um pequeno banco de dados de "outputs de transações não gastos" que são trancados (protegidos por um desafio) com as próprias chaves da carteira. Logo, a carteira de Alice iria conter uma cópia do output da transação do Joe, que foi criada na troca pelo dinheiro (ver [getting_first_bitcoin](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#getting_first_bitcoin). Um aplicativo carteira de bitcoin que roda como um cliente de índice completo na verdade contém uma cópia de cada output não gasto de todas as transações presentes na blockchain. Isso permite que a carteira construa inputs de transação, além de verificar rapidamente se as transações que chegam tem inputs corretos. No entanto, como um cliente de índice completo ocupa muito espaço de armazenamento em disco, a maioria das carteiras roda clientes "leves" que mantém somente o registro dos outputs não gastos do usuário.
 
-Se o aplicativo carteira não mantém uma cópia dos outputs de transação não-gastos, ele pode fazer uma requisição à rede bitcoin para solicitar essa informação, usando APIs disponíveis de diferentes fornecedores, ou fazer uma requisição a um nodo de índice completo usando um API de bitcoin JSON RPC. [Veja que todos os outputs não-gastos para o endereço de bitcoin de Alice](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#example_2-1) mostram uma requisição API RESTful, construído como um comando HTTP GET para uma URL específica. Essa URL irá retornar todas os outputs de transação não-gastos para um endereço, fornecendo para qualquer aplicação a informação necessária para construir inputs de transação para que os bitcoins sejam gastos. Nós usamos um simples cliente HTTP de linha de comando cURL para solicitarmos a resposta.
+Se o aplicativo carteira não mantém uma cópia dos outputs de transação não-gastos, ele pode fazer uma requisição à rede bitcoin para solicitar essa informação, usando as APIs (ou Interfaces de Programação de Aplicações) que os diferentes fornecedores colocam à disposição, ou fazer uma requisição a um nodo de índice completo usando um API de bitcoin JSON RPC. [Veja que todos os outputs não-gastos para o endereço de bitcoin de Alice](https://github.com/aantonop/bitcoinbook/blob/develop/ch02.asciidoc#example_2-1) mostram uma requisição API RESTful, construído como um comando HTTP GET para uma URL específica. Essa URL irá retornar todos os outputs de transação não gastos para um endereço, fornecendo para qualquer aplicação a informação necessária para construir inputs de transação de tal forma que os bitcoins sejam gastos. Nós usamos um simples cliente HTTP de linha de comando cURL para solicitarmos a resposta.
 
-Exemplo 1. Observe todos os outputs não gastos para o endereço de bitcoin da Alice
+Exemplo 2-1. Consulte todos os outputs não gastos do endereço de bitcoin da Alice
 
 
 {
@@ -131,7 +133,7 @@ Exemplo 1. Observe todos os outputs não gastos para o endereço de bitcoin da A
 
 }
 
-Exemplo 2. Resposta para o lookup
+Exemplo 2-2. Resposta à consulta
 
 
 {
