@@ -10,7 +10,7 @@
 - Dizemos a Alice e o Joe, ou simplesmente Alice e Joe?
 - Deveríamos dizer entradas & saídas ou inputs & outputs? Não modifiquei...
 - No exemplo 2-1 para mim tive que adicionar o parâmetro -k para o curl funcionar
-- parei na linha 96 (21/03/2015)
+- parei na linha 156 (21/03/2015)
 
 ##Assim Funciona o Bitcoin
 
