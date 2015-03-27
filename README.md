@@ -1,5 +1,7 @@
 # dominandobitcoin-livro
 
+Repositório movido para: https://www.transifex.com/projects/p/mastering-bitcoin/language/pt_BR/
+
 
 Glossário de tradução
 
